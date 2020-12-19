@@ -54,3 +54,28 @@ Función |  Definición
 commit | Genera el archivo binario.
 rollback | Decodifica el archivo binario.
 initCheck | Verifica si esta creada la carpeta que almacena archivos binarios.
+
+### Funciones del nodo ###
+
+Función |  Definición 
+------------ | -------------
+insertar | Guarda la tupla dentro del nodo.
+comparar | Compara las llaves dentro de los nodos.
+posicionNodo | Obtiene la posicion del nodo dentro del arbol
+buscar_llave | Verifica la existencia de una llave dentro de un nodo.
+ordenar_llave | Ordena las llaves dentro del nodo, ascendentemente.
+toASCII | Obtiene la sumatoria del codigo asi de los caracteres de una cadena.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
