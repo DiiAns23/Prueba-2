@@ -46,3 +46,11 @@ searchTB | Verifica si una tabla de una base de datos ya se encuentra almacenada
 searchRepeat | Verifica si en el arreglo indicado existen datos repetidos.
 updateTree |  Actualiza el arbol B de datos cuando se realizan cambios.
 verifyPk | Crea y verifica si las llaves primarias estan repetidas.
+
+### Funciones de serializacion ###
+
+Función |  Definición 
+------------ | -------------
+commit | Genera el archivo binario.
+rollback | Decodifica el archivo binario.
+initCheck | Verifica si esta creada la carpeta que almacena archivos binarios.
