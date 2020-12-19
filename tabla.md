@@ -11,7 +11,6 @@ dropDatabase | Elimina por completo la base de datos seleccionada.
 showDatabase | Devuelve una lista de los nombres de las bases de datos.
 
 ### Funciones CRUD de las tablas ###
------------------------
 
 Función |  Definición 
 ------------ | -------------
@@ -36,3 +35,14 @@ insert | Inserta un registro en la estructura de datos asociada a la tabla y la 
 loadCSV | Carga un archivo CSV de una ruta especificada indicando la base de datos y tabla donde será almacenado.
 truncate | Elimina todos los registros de una tabla y base de datos.
 update | Inserta un registro en la estructura de datos asociada a la tabla y la base de datos.
+
+### Funciones de utilidad ###
+
+Función |  Definición 
+------------ | -------------
+identify | Valida que los nombres de bases de datos y tablas sean identificadores de SQL.
+searchDB | Verifica si una base de datos especifica ya se encuentra almacenada.
+searchTB | Verifica si una tabla de una base de datos ya se encuentra almacenada.
+searchRepeat | Verifica si en el arreglo indicado existen datos repetidos.
+updateTree |  Actualiza el arbol B de datos cuando se realizan cambios.
+verifyPk | 
