@@ -1,7 +1,8 @@
-### Diccionario de Funciones ###
+Diccionario de Funciones 
+-----------------------
 
 ### Funciones CRUD de las bases de datos ###
--------------------------
+
 Función |  Definición 
 ------------ | -------------
 alterDatabase | Renombra la base de datos seleccionada.
