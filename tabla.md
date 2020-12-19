@@ -10,8 +10,8 @@ createDatabase | Crea una base de datos.
 dropDatabase | Elimina por completo la base de datos seleccionada.
 showDatabase | Devuelve una lista de los nombres de las bases de datos.
 
-Funciones CRUD de las tablas
--------------------------
+### Funciones CRUD de las tablas ###
+
 Función |  Definición 
 ------------ | -------------
 alterAddColumn | Agrega una columna al final de cada registro de la tabla y base de datos especificada.
@@ -25,8 +25,8 @@ extractRangeTable | Extrae y devuelve una lista con los elementos que correspond
 extractTable | Extrae y devuelve una lista con elementos que corresponden a cada registro de la tabla.
 showTables | Devuelve una lista de los nombres de las tablas almacenadas en una base de datos.
 
-Funciones CRUD de los registros
--------------------------
+### Funciones CRUD de los registros ###
+
 Función |  Definición 
 ------------ | -------------
 delete | Elimina un registro de una tabla y base de datos especificados por la llave primaria.
