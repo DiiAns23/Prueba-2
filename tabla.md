@@ -1,6 +1,6 @@
 ### Diccionario de Funciones ###
 
-Funciones CRUD de las bases de datos
+### Funciones CRUD de las bases de datos ###
 -------------------------
 Función |  Definición 
 ------------ | -------------
