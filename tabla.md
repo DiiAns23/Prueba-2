@@ -21,3 +21,14 @@ dropTable | Elimina por completo una tabla de una base de datos especificada.
 extractRangeTable | Extrae y devuelve una lista con los elementos que corresponden a un rango de registros de la tabla. 
 extractTable | Extrae y devuelve una lista con elementos que corresponden a cada registro de la tabla.
 showTables | Devuelve una lista de los nombres de las tablas almacenadas en una base de datos.
+
+Funciones CRUD de los registros
+-------------------------
+Función |  Definición 
+------------ | -------------
+insert | Inserta un registro en la estructura de datos asociada a la tabla y la base de datos.
+loadCSV | Carga un archivo CSV de una ruta especificada indicando la base de datos y tabla donde será almacenado.
+extrectRow | Extrae y devuelve un registro especificado por su llave primaria.
+update | Inserta un registro en la estructura de datos asociada a la tabla y la base de datos.
+delete | Elimina un registro de una tabla y base de datos especificados por la llave primaria.
+truncate | Elimina todos los registros de una tabla y base de datos.
