@@ -1,8 +1,8 @@
 
 ## Indice
 
-•**[Diccionario de Clases](#diccionario-de-clases)
-•**[Diccionario de Funciones](#diccionario-de-funciones)
+•[Diccionario de Clases](#diccionario-de-clases)
+•[Diccionario de Funciones](#diccionario-de-funciones)
 
 
 Diccionario de Clases 
