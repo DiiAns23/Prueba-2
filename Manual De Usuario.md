@@ -17,13 +17,13 @@
 ## Descripcion
 Funciones principales del sistema
 
-### • Modo de Almacenamiento
+  ### • Modo de Almacenamiento
 
-### • Bases de Datos
+  ### • Bases de Datos
 
-### • Tablas
+  ### • Tablas
 
-### • Tuplas
+  ### • Tuplas
   
 <div id='apli'/>
 
