@@ -15,39 +15,18 @@
 <div id='descrip'/>
 
 ## Descripcion
-Funciones principales del sistema
 
   #### • Estructura de Almacenamiento
 Para la realización de este proyecto, la estructura o modo de almacenamiendo utilizada fue por medio de un Arbol B de tamaño cinco.
   #### • Bases de Datos
-  
-  - Crear una base de datos
-  - Ver bases de datos
-  - Cambiar nombre a una base de datos
-  - Eliminar una base de datos
+Las _Bases de Datos_ son un conjunto de datos pertenecientes a un mismo contexto y almacenados sistemáticamente para su uso posterior. Cada _Base de Datos_ se compone de una o más _tablas_.
   
   #### • Tablas
-  
-  - Crear una tabla
-  - Mostrar tablas
-  - Mostrar datos de una tabla
-  - Rango de una tabla
-  - Agregar llave primaria
-  - Eliminar llave primaria
-  - Cambiar nombre a una tabla
-  - Agregar una columna 
-  - Eliminar una columna
-  - Eliminar una tabla
+Las _tablas_ se componen de una o más columas y filas, tambien llamadas _tuplas_.
 
   #### • Tuplas
-  
-  - Insertar fila
-  - Cargar archivo
-  - Extraer fila
-  - Actualizar fila
-  - Eliminar fila
-  - Truncar una tabla
-  
+Contienen la informacion correspondiente a un determinado registro dentro de una _tabla_.  
+
 <div id='apli'/>
 
 ## Aplicacion
