@@ -10,12 +10,20 @@
 <div id='introduccion'/>
 
 ## Introduccion
-**_Tytus_** es un proyecto con *_Licencia de Codigo Abierto_* que permite la administraciión de bases de datos. Este manual le permite al usuario la visualización de la estructura de almacenamiento para el cual se ha implementado la _Estructura de Arbol B_.
+`**_Tytus_**` es un proyecto con `*_Licencia de Codigo Abierto_*` que permite la administraciión de bases de datos. Este manual le permite al usuario la visualización de la estructura de almacenamiento para el cual se ha implementado la `_Estructura de Arbol B_.`
 
 <div id='descrip'/>
 
 ## Descripcion
-contenido
+Funciones principales del sistema
+
+### • Modo de Almacenamiento
+
+### • Bases de Datos
+
+### • Tablas
+
+### • Tuplas
   
 <div id='apli'/>
 
