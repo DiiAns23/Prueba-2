@@ -117,6 +117,10 @@ Diagramas de flujo
 -----------------------
 
 ### Insertar ###
-![](https://github.com/DiiAns23/Prueba-2/edit/Master/img/Insertar.png)
+
+![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/Insertar.png)
+
 ### Eliminar ###
+
 ![](https://github.com/DiiAns23/Prueba-2/edit/Master/img/Eliminar.png)
+
