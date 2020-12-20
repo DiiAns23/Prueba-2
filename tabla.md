@@ -9,6 +9,8 @@
 
 #### • [Diccionario de Funciones](#diccionario-de-funciones) ####
 
+#### • [Diagramas de Flujo](#diagramas-de-flujo) ####
+
 Descripción de la solución 
 -----------------------
 contenido
