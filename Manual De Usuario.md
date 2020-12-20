@@ -10,7 +10,7 @@
 <div id='introduccion'/>
 
 ## Introduccion
-Tytus es un proyecto con licencia de codigo abierto que permite el manejo de bases de datos.
+**_Tytus_** es un proyecto con licencia de codigo abierto que permite el manejo de bases de datos.
 
 <div id='descrip'/>
 
