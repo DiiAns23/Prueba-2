@@ -13,7 +13,15 @@
 
 Descripción de la solución 
 -----------------------
-#### Tytus ####
+#### Almacenamiento ####
+
+Para el almacenamiento de las bases de datos se utilizó un diccionario en el cual se utiliza de índice el nombre de la base de datos; no importando si lo escriben en minúsculas o mayúsculas, al igual que se utilizarón diccionarios para las tablas; donde el índice es el nombre de la tabla, y el valor es el arbol correspondiente.
+
+Para la estructura del arbol B se utilizó un grado 5, para almacenar la información en el arbol, se inserta una tupla con 2 posiciones, en la primera posicion se almacena la llave primaria de la información, y en la segunda posición se guarda la información que se desea almacenar, el arbol ordena dependiendo el número, en caso de que la llave primaria sea un string entonces se utilizará una funcion para sumar todos sus caracteres para comparar su tamaño en ASCII, dando prioridad a los números.
+
+#### Serialización ####
+
+Para preservar la información almacenada en la base de datos y evitar que se cargue información innecesaria en memoria se optó por serializar 2 cosas; la base de datos la cual almacena cada tabla con su configuración de llaves primarias y número de columnas a excepción del arbol de cada tabla, ¿por que? se tomó esta decisión debido funcionalidades de las bases de datos porque al querer llamar a la función showTables() o showDatabases() habria que iterar cada archivo guardado haciendo menos eficiente la busqueda de información, por ello se serializa cada arbol por separado debido a que son independientes de los otros, al hacer cualquier función en una base de datos y tabla especificada esta trae la información almacenada en un arbol, la utiliza para realizar los cambios necesarios, los guarda de nuevo, y cuando termina de utilizarlo lo elimina de la tabla para evitar ocupar demasiado espacio.
 
 Requerimientos del sistema
 -----------------------
