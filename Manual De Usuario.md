@@ -1,6 +1,6 @@
  MANUAL DE USUARIO
 ===================
-## Indice
+## Índice
 - [Introduccion](#introduccion)
 - [Descripción General del Sistema](#descrip)
 - [Aplicacion](#apli)
@@ -9,12 +9,12 @@
 
 <div id='introduccion'/>
 
-## Introduccion
+## Introducción
 **_`Tytus`_** es un proyecto con *_`Licencia de Codigo Abierto`_* que permite la administraciión de bases de datos. Este manual le permite al usuario la visualización de la estructura de almacenamiento para el cual se ha implementado la _`Estructura de Arbol B`_.
 
 <div id='descrip'/>
 
-## Descripcion
+## Descripción
 
   - **Estructura de Almacenamiento**: 
 Para la realización de este proyecto, la estructura o modo de almacenamiendo utilizada fue por medio de un Arbol B de tamaño cinco.
@@ -29,8 +29,8 @@ Contienen la informacion correspondiente a un determinado registro dentro de una
 
 <div id='apli'/>
 
-## Aplicacion
-### Interfaz Grafica (GUI)
+## Aplicación
+### Interfaz Gráfica (GUI)
 
 
 <div id='glosario'/>
