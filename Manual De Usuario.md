@@ -17,7 +17,7 @@
 ## Descripcion
 Funciones principales del sistema
 
-  #### - Estructura de Almacenamiento
+  #### • Estructura de Almacenamiento
 Para la realización de este proyecto, la estructura o modo de almacenamiendo utilizada fue por medio de un Arbol B de tamaño cinco.
   #### • Bases de Datos
   
@@ -51,7 +51,8 @@ Para la realización de este proyecto, la estructura o modo de almacenamiendo ut
 <div id='apli'/>
 
 ## Aplicacion
-contenido
+### Interfaz Grafica (GUI)
+
 
 <div id='glosario'/>
 
