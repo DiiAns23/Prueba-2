@@ -1,8 +1,11 @@
 Diccionario de Clases 
 -----------------------
-Función |  Definición 
+Clase |  Definición 
 ------------ | -------------
-alterDatabase | Renombra la base de datos seleccionada.
+DB | Inicializa y contiene todas las funciones con respecto a crear, editar, leer y eliminar de las bases de datos, tablas y registros.
+NodoB | Inicializa y contiene la estructura de los nodos que se conforman el arbol B.
+ArbolB | Contiene todas la funciones que le rellenan y dan la forma al arbol B, instanciando nodos.
+PP | Contiene todas las funciones de la interfaz gráfica.
 
 Diccionario de Funciones 
 -----------------------
@@ -76,18 +79,19 @@ toASCII | Obtiene la sumatoria del codigo asi de los caracteres de una cadena.
 
 Función |  Definición 
 ------------ | -------------
-buscar | Encuentra y devuelve el nodo al que pertenece una llave.
-separar_nodo | Rompe una página del árbol.
-insertar | Ingresa una llave en el nodo correcto.
-registros | Obtiene todos los registros almacenados en cada nodo del arbol B.
-Keys | Obtiene todas las llaves primarias de los registros almacenados.
 agregarValor | Agrega un dato en la ultima posicion de cada registro.
-eliminarValor | Eliminar un dato en especifico de cada registro.
+buscar | Encuentra y devuelve el nodo al que pertenece una llave.
 del | Elimina un registro de la estructura.
-posicion | Obtiene la posición de la llave a eliminar.
-valor_buscar | Obtiene la posición de un valor dado en los nodos.
+eliminarValor | Eliminar un dato en especifico de cada registro.
 estructurar | Ordena el arbol luego de una inserción.
-unir | Une dos páginas separadas y forma una sola.
-rotar | Determina la posición en la que se insertará una llave.
 graficar | Genera el archivo del arbol en forma visual.
+insertar | Ingresa una llave en el nodo correcto.
+Keys | Obtiene todas las llaves primarias de los registros almacenados.
+posicion | Obtiene la posición de la llave a eliminar.
+registros | Obtiene todos los registros almacenados en cada nodo del arbol B.
+rotar | Determina la posición en la que se insertará una llave.
+separar_nodo | Rompe una página del árbol.
+unir | Une dos páginas separadas y forma una sola.
+valor_buscar | Obtiene la posición de un valor dado en los nodos.
+
 
