@@ -1,11 +1,8 @@
-### Funciones CRUD de las bases de datos ###
-
+Diccionario de Clases 
+-----------------------
 Función |  Definición 
 ------------ | -------------
 alterDatabase | Renombra la base de datos seleccionada.
-createDatabase | Crea una base de datos.
-dropDatabase | Elimina por completo la base de datos seleccionada.
-showDatabase | Devuelve una lista de los nombres de las bases de datos.
 
 Diccionario de Funciones 
 -----------------------
@@ -93,17 +90,4 @@ estructurar | Ordena el arbol luego de una inserción.
 unir | Une dos páginas separadas y forma una sola.
 rotar | Determina la posición en la que se insertará una llave.
 graficar | Genera el archivo del arbol en forma visual.
-
-
-
-
-
-
-
-
-
-
-
-
-
 
