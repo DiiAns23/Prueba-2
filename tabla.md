@@ -52,19 +52,38 @@ verifyPk | Crea y verifica si las llaves primarias estan repetidas.
 Función |  Definición 
 ------------ | -------------
 commit | Genera el archivo binario.
-rollback | Decodifica el archivo binario.
 initCheck | Verifica si esta creada la carpeta que almacena archivos binarios.
+rollback | Decodifica el archivo binario.
 
 ### Funciones del nodo ###
 
 Función |  Definición 
 ------------ | -------------
-insertar | Guarda la tupla dentro del nodo.
-comparar | Compara las llaves dentro de los nodos.
-posicionNodo | Obtiene la posicion del nodo dentro del arbol
 buscar_llave | Verifica la existencia de una llave dentro de un nodo.
+comparar | Compara las llaves dentro de los nodos.
+insertar | Guarda la tupla dentro del nodo.
 ordenar_llave | Ordena las llaves dentro del nodo, ascendentemente.
+posicionNodo | Obtiene la posicion del nodo dentro del arbol
 toASCII | Obtiene la sumatoria del codigo asi de los caracteres de una cadena.
+
+### Funciones del arbol B ###
+
+Función |  Definición 
+------------ | -------------
+buscar | Encuentra y devuelve el nodo al que pertenece una llave.
+separar_nodo | Rompe una página del árbol.
+insertar | Ingresa una llave en el nodo correcto.
+registros | Obtiene todos los registros almacenados en cada nodo del arbol B.
+Keys | Obtiene todas las llaves primarias de los registros almacenados.
+agregarValor | Agrega un dato en la ultima posicion de cada registro.
+eliminarValor | Eliminar un dato en especifico de cada registro.
+del | Elimina un registro de la estructura.
+posicion | Obtiene la posición de la llave a eliminar.
+valor_buscar | Obtiene la posición de un valor dado en los nodos.
+estructurar | Ordena el arbol luego de una inserción.
+unir | Une dos páginas separadas y forma una sola.
+rotar | Determina la posición en la que se insertará una llave.
+graficar | Genera el archivo del arbol en forma visual.
 
 
 
