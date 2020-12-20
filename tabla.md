@@ -1,13 +1,13 @@
 
 ## Indice
 
-#### •[Descripción de la solución](#descipcion-de-la-solucion) ####
+#### • [Descripción de la solución](#descipcion-de-la-solucion) ####
 
-#### •[Requerimientos del sistema](#requerimientos-del-sistema) ####
+#### • [Requerimientos del sistema](#requerimientos-del-sistema) ####
 
-#### •[Diccionario de Clases](#diccionario-de-clases) ####
+#### • [Diccionario de Clases](#diccionario-de-clases) ####
 
-#### •[Diccionario de Funciones](#diccionario-de-funciones) ####
+#### • [Diccionario de Funciones](#diccionario-de-funciones) ####
 
 Descripción de la solución 
 -----------------------
