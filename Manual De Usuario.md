@@ -16,15 +16,15 @@
 
 ## Descripcion
 
-  #### • Estructura de Almacenamiento
+  - Estructura de Almacenamiento
 Para la realización de este proyecto, la estructura o modo de almacenamiendo utilizada fue por medio de un Arbol B de tamaño cinco.
-  #### • Bases de Datos
+  - Bases de Datos
 Las _Bases de Datos_ son un conjunto de datos pertenecientes a un mismo contexto y almacenados sistemáticamente para su uso posterior. Cada _Base de Datos_ se compone de una o más _tablas_.
   
-  #### • Tablas
+  - Tablas
 Las _tablas_ se componen de una o más columas y filas, tambien llamadas _tuplas_.
 
-  #### • Tuplas
+ -Tuplas
 Contienen la informacion correspondiente a un determinado registro dentro de una _tabla_.  
 
 <div id='apli'/>
