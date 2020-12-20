@@ -122,5 +122,5 @@ Diagramas de flujo
 
 ### Eliminar ###
 
-![](https://github.com/DiiAns23/Prueba-2/edit/Master/img/Eliminar.png)
+![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/Eliminar.png)
 
