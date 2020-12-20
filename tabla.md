@@ -1,6 +1,8 @@
 **Table of Contents**
 
- [TOCM]
+## Indice
+
+- [Diagrama de Clases](#Diagrama de Clases)
 
 
 Diccionario de Clases 
