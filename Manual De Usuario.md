@@ -1,4 +1,5 @@
-# MANUAL DE USUARIO
+ MANUAL DE USUARIO
+===================
 ## Indice
 - [Introduccion](#introduccion)
 - [Aplicacion](#apli)
