@@ -21,32 +21,32 @@ Funciones principales del sistema
 Para la realización de este proyecto, la estructura o modo de almacenamiendo utilizada fue por medio de un Arbol B de tamaño cinco.
   #### • Bases de Datos
   
-  ##### • Crear una base de datos
-  ##### • Ver bases de datos
-  ##### • Cambiar nombre a una base de datos
-  ##### • Eliminar una base de datos
+  - Crear una base de datos
+  - Ver bases de datos
+  - Cambiar nombre a una base de datos
+  - Eliminar una base de datos
   
   #### • Tablas
   
-  ##### • Crear una tabla
-  ##### • Mostrar tablas
-  ##### • Mostrar datos de una tabla
-  ##### • Rango de una tabla
-  ##### • Agregar llave primaria
-  ##### • Eliminar llave primaria
-  ##### • Cambiar nombre a una tabla
-  ##### • Agregar una columna 
-  ##### • Eliminar una columna
-  ##### • Eliminar una tabla
+  - Crear una tabla
+  - Mostrar tablas
+  - Mostrar datos de una tabla
+  - Rango de una tabla
+  - Agregar llave primaria
+  - Eliminar llave primaria
+  - Cambiar nombre a una tabla
+  - Agregar una columna 
+  - Eliminar una columna
+  - Eliminar una tabla
 
   #### • Tuplas
   
-  ##### • Insertar fila
-  ##### • Cargar archivo
-  ##### • Extraer fila
-  ##### • Actualizar fila
-  ##### • Eliminar fila
-  ##### • Truncar una tabla
+  - Insertar fila
+  - Cargar archivo
+  - Extraer fila
+  - Actualizar fila
+  - Eliminar fila
+  - Truncar una tabla
   
 <div id='apli'/>
 
