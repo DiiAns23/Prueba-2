@@ -1,7 +1,7 @@
 
 ## Indice
 
-- [Diccionario de Clases](#Diccionario de Clases)
+- [Diccionario de Clases](#diccionario-de-clases)
 
 
 Diccionario de Clases 
