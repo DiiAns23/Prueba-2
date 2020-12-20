@@ -1,5 +1,5 @@
-**Table of Contents**
-[TOCM]
+** Table of Contents **
+ [TOCM]
 
 
 Diccionario de Clases 
