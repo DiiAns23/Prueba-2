@@ -1,8 +1,7 @@
-**Table of Contents**
 
 ## Indice
 
-- [Diagrama de Clases](#Diagrama de Clases)
+- [Diccionario de Clases](#Diccionario de Clases)
 
 
 Diccionario de Clases 
