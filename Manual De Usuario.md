@@ -1,10 +1,10 @@
 # MANUAL DE USUARIO
 ## Indice
--[Introduccion](#introduccion)
--[Aplicacion](#apli)
--[Descripción General del Sistema](#descrip)
--[Glosario](#glosario)
--[Preguntas Frecuentes](#questions)
+- [Introduccion](#introduccion)
+- [Aplicacion](#apli)
+- [Descripción General del Sistema](#descrip)
+- [Glosario](#glosario)
+- [Preguntas Frecuentes](#questions)
 
 <div id='introduccion'/>
 ## Introduccion
