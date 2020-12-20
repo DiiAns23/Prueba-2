@@ -7,18 +7,18 @@
 -[Preguntas Frecuentes](#questions)
 
 <div id='introduccion'/>
-##Introduccion
+## Introduccion
 Tytus es un proyecto con licencia de codigo abierto que permite el manejo de bases de datos.
   
 <div id='apli'/>
-##Aplicacion
+## Aplicacion
 contenido
 
 <div id='descrip'/>
-##Descripcion
+## Descripcion
 
 <div id='glosario'/>
-##Glosario
+## Glosario
     
 <div id='questions'/>
-##Preguntas Frecuentes
+## Preguntas Frecuentes
