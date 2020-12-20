@@ -113,4 +113,10 @@ separar_nodo | Rompe una página del árbol.
 unir | Une dos páginas separadas y forma una sola.
 valor_buscar | Obtiene la posición de un valor dado en los nodos.
 
+Diagramas de flujo
+-----------------------
 
+### Insertar ###
+![](https://github.com/DiiAns23/Prueba-2/edit/Master/img/Insertar.png)
+### Eliminar ###
+![](https://github.com/DiiAns23/Prueba-2/edit/Master/img/Eliminar.png)
