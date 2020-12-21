@@ -38,9 +38,17 @@ El programa **_`Tytus 2020`_** cuenta con una vista gráfica la cual facilita la
      | **Opción** | **Funcionalidad** |
      | ---------- | ----------------- |
      | Reportes   | Por medio de esta opción, el usuario podrá generar y visualizar la estructura de los datos en forma de _Árbol B_ |
-     | Funcines   | Con esta funcion, el usuario puede acceder a todas las funcionalidades de Bases de Datos, Tablas y Tuplas  |
-     | Acerca De  | Muesta la información del Centro de estudios así como de los programadores del sistemas |
+     | Funciones  | Con esta funcion, el usuario puede acceder a todas las funcionalidades de Bases de Datos, Tablas y Tuplas  |
+     | Acerca De  | Muesta la información del Centro de estudios así como de los programadores del sistema |
      
+- Ventana Reportes: En esta ventana el usuario deberá de seleccionar una base de datos y seguidamente seleccionar una tabla, también podrá seleccionar una llave primaria de la tabla para visualizar un elemento en específico según lo desee.
+
+- Ventana Funciones: En esta pestaña se mostrarán todas las funcionalidades del sistema.
+     | **Opción**             | **Funcionalidad** |
+     | ---------------------- | ----------------- |
+     | Nueva Base de Datos    | Para crear una nueva base de datos, el usuario solo deberá de ingresar el nombre que desee |
+     | Mostrar Bases de Datos | Mostrará en pantalla todas las bases de datos existentes en la memoria del computador |
+   
      
 <div id='glosario'/>
 
