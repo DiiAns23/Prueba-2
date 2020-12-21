@@ -31,7 +31,7 @@ Requerimientos funcionales del sistema
 
 • Se proporcionan funciones relacionadas al CRUD de bases de datos, tablas y registros.
 
-• El paquete cuenta con una interfaz gráfica que facilita el manejo de la información, para ello se requiere tener instalado @graphviz
+• El paquete cuenta con una interfaz gráfica que facilita el manejo de la información, para ello se requiere tener instalado [graphviz](https://graphviz.org/download/)
 
 
 Requerimientos del entorno de desarrollo
