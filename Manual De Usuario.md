@@ -100,20 +100,38 @@ El programa **_`Tytus 2020`_** cuenta con una vista gráfica la cual facilita la
 
 > _R//_ *No, el nombre de la base de datos debe de ser único.*
 
-**2. ¿Cuantas tablas puedo crear dentro de una base de datos?**   _R//_ *No existe un límite para crear tablas dentro de una base de datos.*
+**2. ¿Cuantas tablas puedo crear dentro de una base de datos?**   
 
-**3. ¿Cuáles son los nombres válidos para Bases de Datos y Tablas?**   _R//_ *El primer caracter debe de ser una letra del abecedario y no puede llevar nombres de palabras reservadas.*
+> _R//_ *No existe un límite para crear tablas dentro de una base de datos.*
 
-**4. ¿Pueden existir llaves primarias duplicadas?** _R//_ *No, la llave primaria es un identificador único para cada registro.*
+**3. ¿Cuáles son los nombres válidos para Bases de Datos y Tablas?**   
 
-**5. ¿Por qué no puedo insertar un nuevo registro?** _R//_ *Puede que este mal escrito, la llave este duplicada o no cumpla con la longitud de columnas de la tabla.*
+> _R//_ *El primer caracter debe de ser una letra del abecedario y no puede llevar nombres de palabras reservadas.*
 
-**6. ¿Por qué no puedo agregar una llave primaria?** _R//_ *Puede que la columna seleccionada contenga valores repetidos.*
+**4. ¿Pueden existir llaves primarias duplicadas?** 
 
-**7. ¿Cómo cargo un CSV?** _R//_ *Debes de seleccionar una base de datos y una tabla la cual debe de tener la misma cantidad de columnas que el archivo que deseas cargar*
+> _R//_ *No, la llave primaria es un identificador único para cada registro.*
 
-**8. ¿Puedo modificar el grado del árbol?** _R//_ *No, por el momento esa función no ha sido habilita*
+**5. ¿Por qué no puedo insertar un nuevo registro?** 
 
-**9. ¿Cuántas columnas puedo poner como llave primaria?** _R//_ *No hay límite, solo se debe verificar que las columnas no contengan valores repetidos*
+> _R//_ *Puede que este mal escrito, la llave este duplicada o no cumpla con la longitud de columnas de la tabla.*
 
-**10. ¿Una base de datos puede tener las mismas tablas que otra base de datos?** _R//_ *Sí*
+**6. ¿Por qué no puedo agregar una llave primaria?** 
+
+> _R//_ *Puede que la columna seleccionada contenga valores repetidos.*
+
+**7. ¿Cómo cargo un CSV?** 
+
+> _R//_ *Debes de seleccionar una base de datos y una tabla la cual debe de tener la misma cantidad de columnas que el archivo que deseas cargar*
+
+**8. ¿Puedo modificar el grado del árbol?** 
+
+> _R//_ *No, por el momento esa función no ha sido habilita*
+
+**9. ¿Cuántas columnas puedo poner como llave primaria?** 
+
+> _R//_ *No hay límite, solo se debe verificar que las columnas no contengan valores repetidos*
+
+**10. ¿Una base de datos puede tener las mismas tablas que otra base de datos?** 
+
+> _R//_ *Sí*
