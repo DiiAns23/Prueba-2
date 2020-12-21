@@ -31,7 +31,7 @@ Diccionario de Clases
 -----------------------
 Clase |  Definición 
 ------------ | -------------
-ArbolB | Contiene todas la funciones que le rellenan y dan la forma al arbol B, instanciando nodos.
+`ArbolB` | Contiene todas la funciones que le rellenan y dan la forma al arbol B, instanciando nodos.
 DB | Inicializa y contiene todas las funciones con respecto a crear, editar, leer y eliminar de las bases de datos, tablas y registros.
 NodoB | Inicializa y contiene la estructura de los nodos que se conforman el arbol B.
 PP | Contiene todas las funciones de la interfaz gráfica.
