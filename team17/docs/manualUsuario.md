@@ -1,161 +1,138 @@
+MANUAL DE USUARIO
+===================
+## Índice
+- [Introduccion](#introduccion)
+- [Descripción General del Sistema](#descrip)
+- [Aplicacion](#apli)
+- [Glosario](#glosario)
+- [FAQ](#questions)
 
-## Indice
+<div id='introduccion'/>
 
-#### • [Descripción de la solución](#descipcion-de-la-solucion) ####
+## Introducción
+La finalidad de la interfaz gráfica es permitir al usuario la administración de sus bases de datos con una mayor facilidad que al hacerlo en una consola, Este manual permite al usuario comprender la composición de la interfaz gráfica y el cómo interactuar con la base de datos creada; la cual ha sido implementada con un Árbol B de grado 5. 
 
-#### • [Requerimientos Funcionales del Sistema](#requerimientos-funcionales-del-sistema) ####
+<div id='descrip'/>
 
-#### • [Requerimientos del Entorno de Desarrollo](#requerimientos-del-entorno-de-desarrollo) ####
+## Descripción
 
-#### • [Diccionario de Clases](#diccionario-de-clases) ####
+  - **Estructura de Almacenamiento**: 
+Para la realización de este proyecto, la estructura o modo de almacenamiendo utilizada fue por medio de un Arbol B de tamaño cinco.
+  - **Bases de Datos**:
+Las _Bases de Datos_ son un conjunto de datos pertenecientes a un mismo contexto y almacenados sistemáticamente para su uso posterior. Cada _Base de Datos_ se compone de una o más _tablas_.
+  
+  - **Tablas**:
+Las _tablas_ se componen de una o más columas y filas, tambien llamadas _tuplas_.
 
-#### • [Diccionario de Funciones](#diccionario-de-funciones) ####
+ - **Tuplas**:
+Contienen la informacion correspondiente a un determinado registro dentro de una _tabla_.  
 
-#### • [Diagramas de Flujo](#diagramas-de-flujo) ####
+<div id='apli'/>
 
-Descripción de la solución 
------------------------
-#### Almacenamiento ####
+## Aplicación
+### Interfaz Gráfica (GUI)
+El programa **_`Tytus 2020`_** cuenta con una vista gráfica la cual facilita la interacción entre el sistema y el usuario final para un mejor manejo de datos. Por medio de dicha interfaz, al usuario se le permite visualizar de forma _gráfica_ la estructura con la cual los datos estan siendo almacenados en la memoria del computador. El usuario puede navegar por la aplicación seleccionando a través de botones la acción que desea realizar, si ocurre un error en el ingreso de datos el programa le notificará al usuario el tipo de error que se está cometiendo. 
 
-Para el almacenamiento de las bases de datos se utilizó un diccionario en el cual se utiliza de índice el nombre de la base de datos; no importando si lo escriben en minúsculas o mayúsculas, al igual que se utilizarón diccionarios para las tablas; donde el índice es el nombre de la tabla, y el valor es el arbol correspondiente.
+- Ventana Inicial: La _Ventana Inicial_ cuenta con tres opciones: *Reportes*, *Funciones* y *_Acerca De_*.
 
-Para la estructura del arbol B se utilizó un grado 5, para almacenar la información en el arbol, se inserta una tupla con 2 posiciones, en la primera posicion se almacena la llave primaria de la información, y en la segunda posición se guarda la información que se desea almacenar, el arbol ordena dependiendo el número, en caso de que la llave primaria sea un string entonces se utilizará una funcion para sumar todos sus caracteres para comparar su tamaño en ASCII, dando prioridad a los números.
+![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/Init.PNG)
 
-#### Serialización ####
+   | **Opción** | **Funcionalidad** |
+   | ---------- | ----------------- |
+   | Reportes   | Por medio de esta opción, el usuario podrá generar y visualizar la estructura de los datos en forma de _Árbol B_ |
+   | Funciones  | Con esta funcion, el usuario puede acceder a todas las funcionalidades de Bases de Datos, Tablas y Tuplas  |
+   | Acerca De  | Muesta la información del Centro de estudios así como de los programadores del sistema |
+     
+- Ventana Reportes: En esta ventana el usuario deberá de seleccionar una base de datos y seguidamente seleccionar una tabla, también podrá seleccionar una llave primaria de la tabla para visualizar un elemento en específico según lo desee.
+  
+![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/Rep.PNG)
 
-Para preservar la información almacenada en la base de datos y evitar que se cargue información innecesaria en memoria se optó por serializar 2 cosas; la base de datos la cual almacena cada tabla con su configuración de llaves primarias y número de columnas a excepción del arbol de cada tabla, ¿por que? se tomó esta decisión debido funcionalidades de las bases de datos porque al querer llamar a la función showTables() o showDatabases() habria que iterar cada archivo guardado haciendo menos eficiente la busqueda de información, por ello se serializa cada arbol por separado debido a que son independientes de los otros, al hacer cualquier función en una base de datos y tabla especificada esta trae la información almacenada en un arbol, la utiliza para realizar los cambios necesarios, los guarda de nuevo, y cuando termina de utilizarlo lo elimina de la tabla para evitar ocupar demasiado espacio.
+- Ventana Funciones: En esta pestaña se mostrarán todas las funcionalidades del sistema.
 
-Requerimientos Funcionales del Sistema
------------------------
-• Existe un paquete el cual es el encargado de gestionar el almacenamiento de las bases de datos, proporcionando al servidor un conjunto de funciones para ingresar, modificar extraer y eliminar la información.
+![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/Func.PNG)
 
-• Cada registro que corresponde a una tupla de una tabla será almacenado en cada nodo que corresponden a un Arbol B. Estos registros seran débilmente tipados.
+   | **Opción**                         | **Funcionalidad** |
+   | ----------------------             | ----------------- |
+   | Nueva Base de Datos                | Para crear una nueva base de datos, el usuario solo deberá de ingresar el nombre que desee |
+   | Mostrar Bases de Datos             | Mostrará en pantalla todas las bases de datos existentes en la memoria del computador |
+   | Cambiar Nombre a una Base de Datos | El usuario debe de seleccionar una base de datos y posteriormente ingresar el nuevo nombre |
+   | Eliminar una Base de Datos         | El usuario deberá de seleccionar la base de datos a eliminar |
+   | Nueva Tabla                        | Se debe de seleccionar una base de datos y posteriormente ingresar el nombre de la nueva tabla |
+   | Mostrar Tablas                     | Se debe de seleccionar una base de datos para mostrar las tablas que contiene dicha base de datos |
+   | Mostrar Datos                      | Se debe de seleccionar una base de datos y posteriormente seleccionar una tabla para poder visualizar los datos |
+   | Rango Tabla                        | Se debe de seleccionar una base de datos, una tabla, un número de columna y posteriormente ingresar el límite inferior y superior |
+   | Agregar Llave Primaria             | Se debe de seleccionar una base de datos, una tabla y posteriormente ingresar las columnas que se desean que sean llaves primarias |
+   | Eliminar Llave Primaria            | Se debe de seleccionar una base de datos y posteriormente una tabla para que su llave primaria sea eliminada |
+   | Cambiar nombre de una Tabla        | Se debe de seleccionar una base de datos, una tabla y escribir el nuevo nombre que se le desea dar a dicha tabla |
+   | Agregar columna a una Tabla        | Se debe de seleccionar una base de datos, una tabla y el nuevo valor a ingresar en todos los registros existentes |
+   | Elimina columna de una Tabla       | Se debe de seleccionar una base de datos, una tabla y el numero de columna que se desea eliminar |
+   | Eliminar una Tabla                 | Se debe de seleccionar una base de datos y seguidamente la tabla a eliminar |
+   | Insertar Tupla                     | Se debe de seleccionar una base de datos, una tabla y seguidamente ingresar los datos a ingresar en la fila o tupla |
+   | Cargar CSV                         | Se debe de seleccionar una base de datos y una tabla, seguidamente ingresar el nombre del archivo con su extensión |
+   | Extraer una Tupla                  | Se debe de seleccionar una base de datos, una tabla y seguidamente la llave primaria |
+   | Eliminar una Tupla                 | Se debe de seleccionar una base de datos, una tabla y seguidamente la llave primaria |
+   | Truncate Tabla                     | Se debe de seleccionar un base de datos y seguidamente una tabla |
+   
+- Ventana Acerca De: Se mostrarán datos del centro de estudios así como de los programadores del sistema **_`Tytus 2020`_**
 
-• Se proporcionan funciones relacionadas al CRUD de bases de datos, tablas y registros.
 
-• El paquete cuenta con una interfaz gráfica que facilita el manejo de la información, para ello se requiere tener instalado [graphviz](https://graphviz.org/download/)
+![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/A_D.PNG) 
 
 
-Requerimientos del Entorno de Desarrollo
------------------------
-• Versión de Python: Python 3.9.0 [MSC v.1927 64 bit (AMD64)] on win32
+<div id='glosario'/>
 
-• IDE utilizada: PyChram 2020.2.3
+## Glosario
 
-• Espacio en memoria: 1 MB como mínimo
+| Palabra | Descripción | 
+| ------------------------------- | ----------------------------------------- |
+| Arbol B | Tipo de estructura de almacenamiento de datos |
+| Interfaz Gráfica | Interacción entre el usuario y el sistema |
+| Registro | Valor o valores a ingresar en una tupla |
+| Tupla | Fila |
+| Llave primaria | Identificador único para una tabla de una base de datos |
+| CSV | Valores separados por coma o Comma-Separated Values por sus siglas en inglés |
+| Truncate | Elimina todos los registros de determinado lugar |
 
-• Versión de Graphviz: graphviz version 2.38.0 (20140413.2041)
+<div id='questions'/> 
 
-• Liberia Pillow de Python
+## Preguntas Frecuentes (FAQ)
+**1. ¿Puedo crear dos veces la misma base de datos?**    
 
-Diccionario de Clases 
------------------------
-Clase |  Definición 
------------- | -------------
-`ArbolB` | Contiene todas la funciones que le rellenan y dan la forma al arbol B, instanciando nodos.
-`DB` | Inicializa y contiene todas las funciones con respecto a crear, editar, leer y eliminar de las bases de datos, tablas y registros.
-`NodoB` | Inicializa y contiene la estructura de los nodos que se conforman el arbol B.
-`PP` | Contiene todas las funciones de la interfaz gráfica.
+> _R//_ *No, el nombre de la base de datos debe de ser único.*
 
-Diccionario de Funciones 
------------------------
+**2. ¿Cuantas tablas puedo crear dentro de una base de datos?**   
 
-### Funciones CRUD de las bases de datos ###
+> _R//_ *No existe un límite para crear tablas dentro de una base de datos.*
 
-Función |  Definición 
------------- | -------------
-`alterDatabase` | Renombra la base de datos seleccionada.
-`createDatabase` | Crea una base de datos.
-`dropDatabase` | Elimina por completo la base de datos seleccionada.
-`showDatabase` | Devuelve una lista de los nombres de las bases de datos.
+**3. ¿Cuáles son los nombres válidos para Bases de Datos y Tablas?**   
 
-### Funciones CRUD de las tablas ###
+> _R//_ *El primer caracter debe de ser una letra del abecedario y no puede llevar nombres de palabras reservadas.*
 
-Función |  Definición 
------------- | -------------
-`alterAddColumn` | Agrega una columna al final de cada registro de la tabla y base de datos especificada.
-`alterAddPK` | Asocia a la tabla una llave primaria simple o compuesta mediante la lista de número de columnas.
-`alterDropColumn` | Eliminar una n-ésima columna de cada registro de la tabla excepto si son llaves primarias.
-`alterDropPK` | Elimina la llave primaria actual en la información de la tabla, manteniendo el índice actual de la estructura.
-`alterTable` | Renombra el nombre de la tabla de una base de datos especificada.
-`createTable` | Crea una tabla en una base de datos especificada recibiendo una lista de índices referentes a la llave primaria.
-`dropTable` | Elimina por completo una tabla de una base de datos especificada.
-`extractRangeTable` | Extrae y devuelve una lista con los elementos que corresponden a un rango de registros de la tabla. 
-`extractTable` | Extrae y devuelve una lista con elementos que corresponden a cada registro de la tabla.
-`showTables` | Devuelve una lista de los nombres de las tablas almacenadas en una base de datos.
+**4. ¿Pueden existir llaves primarias duplicadas?** 
 
-### Funciones CRUD de los registros ###
+> _R//_ *No, la llave primaria es un identificador único para cada registro.*
 
-Función |  Definición 
------------- | -------------
-`delete` | Elimina un registro de una tabla y base de datos especificados por la llave primaria.
-`extractRow` | Extrae y devuelve un registro especificado por su llave primaria.
-`insert` | Inserta un registro en la estructura de datos asociada a la tabla y la base de datos.
-`loadCSV` | Carga un archivo CSV de una ruta especificada indicando la base de datos y tabla donde será almacenado.
-`truncate` | Elimina todos los registros de una tabla y base de datos.
-`update` | Inserta un registro en la estructura de datos asociada a la tabla y la base de datos.
+**5. ¿Por qué no puedo insertar un nuevo registro?** 
 
-### Funciones de utilidad ###
+> _R//_ *Puede que este mal escrito, la llave este duplicada o no cumpla con la longitud de columnas de la tabla.*
 
-Función |  Definición 
------------- | -------------
-`identify` | Valida que los nombres de bases de datos y tablas sean identificadores de SQL.
-`searchDB` | Verifica si una base de datos especifica ya se encuentra almacenada.
-`searchTB` | Verifica si una tabla de una base de datos ya se encuentra almacenada.
-`searchRepeat` | Verifica si en el arreglo indicado existen datos repetidos.
-`updateTree` |  Actualiza el arbol B de datos cuando se realizan cambios.
-`verifyPk` | Crea y verifica si las llaves primarias estan repetidas.
+**6. ¿Por qué no puedo agregar una llave primaria?** 
 
-### Funciones de serializacion ###
+> _R//_ *Puede que la columna seleccionada contenga valores repetidos.*
 
-Función |  Definición 
------------- | -------------
-`commit` | Genera el archivo binario.
-`initCheck` | Verifica si esta creada la carpeta que almacena archivos binarios.
-`rollback` | Decodifica el archivo binario.
+**7. ¿Cómo cargo un CSV?** 
 
-### Funciones del nodo ###
+> _R//_ *Debes de seleccionar una base de datos y una tabla la cual debe de tener la misma cantidad de columnas que el archivo que deseas cargar*
 
-Función |  Definición 
------------- | -------------
-`buscar_llave` | Verifica la existencia de una llave dentro de un nodo.
-`comparar` | Compara las llaves dentro de los nodos.
-`insertar` | Guarda la tupla dentro del nodo.
-`ordenar_llave` | Ordena las llaves dentro del nodo, ascendentemente.
-`posicionNodo` | Obtiene la posicion del nodo dentro del arbol
-`toASCII` | Obtiene la sumatoria del codigo asi de los caracteres de una cadena.
+**8. ¿Puedo modificar el grado del árbol?** 
 
-### Funciones del arbol B ###
+> _R//_ *No, por el momento esa función no ha sido habilita*
 
-Función |  Definición 
------------- | -------------
-`agregarValor` | Agrega un dato en la ultima posicion de cada registro.
-`buscar` | Encuentra y devuelve el nodo al que pertenece una llave.
-`del` | Elimina un registro de la estructura.
-`eliminarValor` | Eliminar un dato en especifico de cada registro.
-`estructurar` | Ordena el arbol luego de una inserción.
-`graficar` | Genera el archivo del arbol en forma visual.
-`insertar` | Ingresa una llave en el nodo correcto.
-`Keys` | Obtiene todas las llaves primarias de los registros almacenados.
-`posicion` | Obtiene la posición de la llave a eliminar.
-`registros` | Obtiene todos los registros almacenados en cada nodo del arbol B.
-`rotar` | Determina la posición en la que se insertará una llave.
-`separar_nodo` | Rompe una página del árbol.
-`unir` | Une dos páginas separadas y forma una sola.
-`valor_buscar` | Obtiene la posición de un valor dado en los nodos.
+**9. ¿Cuántas columnas puedo poner como llave primaria?** 
 
-Diagramas de flujo
------------------------
+> _R//_ *No hay límite, solo se debe verificar que las columnas no contengan valores repetidos*
 
-![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/clases.png)
+**10. ¿Una base de datos puede tener las mismas tablas que otra base de datos?** 
 
-Diagramas de flujo
------------------------
+> _R//_ *Sí*
 
-### Función Insertar ###
-
-![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/Insertar.png)
-
-### Función Eliminar ###
-
-![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/Eliminar.png)
