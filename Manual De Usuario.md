@@ -75,14 +75,19 @@ El programa **_`Tytus 2020`_** cuenta con una vista gráfica la cual facilita la
 
      ----- Insertar aqui la imagen -------------
 
-### Valores de Retorno
-
-
-
 <div id='glosario'/>
 
 ## Glosario
-preguntas
+
+| Palabra | Descripción | 
+| ------------------------------- | ----------------------------------------- |
+| Arbol B | Tipo de estructura de almacenamiento de datos |
+| Interfaz Gráfica | Interacción entre el usuario y el sistema |
+| Registro | Valor o valores a ingresar en una tupla |
+| Tupla | Fila |
+| Llave primaria | Identificador único para una tabla de una base de datos |
+| CSV | Valores separados por coma o Comma-Separated Values por sus siglas en inglés |
+| Truncate | Elimina todos los registros de determinado lugar |
 
 <div id='questions'/>
 
