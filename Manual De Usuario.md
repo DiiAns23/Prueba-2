@@ -97,7 +97,10 @@ El programa **_`Tytus 2020`_** cuenta con una vista gráfica la cual facilita la
 
 ## Preguntas Frecuentes (FAQ)
 **1. ¿Puedo crear dos veces la misma base de datos?** _R//_ *No, el nombre de la base de datos debe de ser único*
----------------------------------
+
 **2. ¿Cuantas tablas puedo crear dentro de una base de datos?** _R//_ *No existe un límite para crear tablas dentro de una base de datos*
----------------------------------
-**3. ¿**
+
+**3. ¿Cuáles son los nombres válidos para Bases de Datos y Tablas** _R//_ *El primer caracter debe de ser una letra del abecedario y no puede llevar nombres de palabras reservadas*
+
+
+
