@@ -75,7 +75,9 @@ El programa **_`Tytus 2020`_** cuenta con una vista gráfica la cual facilita la
    
 - Ventana Acerca De: Se mostrarán datos del centro de estudios así como de los programadores del sistema **_`Tytus 2020`_**
 
-![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/AD.PNG)
+
+![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/AD.PNG) 
+
 
 <div id='glosario'/>
 
