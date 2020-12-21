@@ -91,7 +91,7 @@ El programa **_`Tytus 2020`_** cuenta con una vista gráfica la cual facilita la
 | CSV | Valores separados por coma o Comma-Separated Values por sus siglas en inglés |
 | Truncate | Elimina todos los registros de determinado lugar |
 
-<div id='questions'/>
+<div id='questions'/> 
 
 ## Preguntas Frecuentes
 hola
