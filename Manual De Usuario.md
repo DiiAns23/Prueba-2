@@ -48,6 +48,11 @@ El programa **_`Tytus 2020`_** cuenta con una vista gráfica la cual facilita la
      | ---------------------- | ----------------- |
      | Nueva Base de Datos    | Para crear una nueva base de datos, el usuario solo deberá de ingresar el nombre que desee |
      | Mostrar Bases de Datos | Mostrará en pantalla todas las bases de datos existentes en la memoria del computador |
+     | Cambiar Nombre a una Base de Datos | El usuario debe de seleccionar una base de datos y posteriormente ingresar el nuevo nombre |
+     | Eliminar una Base de Datos | El usuario deberá de seleccionar la base de datos a eliminar |
+     | Nueva Tabla | Se debe de seleccionar una base de datos y posteriormente ingresar el nombre de la nueva tabla |
+     | Mostrar Tablas | Se debe de seleccionar una base de datos para mostrar las tablas que contiene dicha base de datos |
+     | Mostrar Datos | Se debe de seleccionar el |
    
      
 <div id='glosario'/>
