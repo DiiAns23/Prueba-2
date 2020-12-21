@@ -27,7 +27,7 @@ Requerimientos funcionales del sistema
 -----------------------
 • Existe un paquete el cual es el encargado de gestionar el almacenamiento de las bases de datos, proporcionando al servidor un conjunto de funciones para ingresar, modificar extraer y eliminar la información.
 
-• Cada registro que corresponde a una tupla de una tabla será almacenado en cada nodo que corresponden a la estructura de datos del Arbol B. Estos registros seran débilmente tipados.
+• Cada registro que corresponde a una tupla de una tabla será almacenado en cada nodo que corresponden a un Arbol B. Estos registros seran débilmente tipados.
 
 • Se proporcionan funciones relacionadas al CRUD de bases de datos, tablas y registros.
 
