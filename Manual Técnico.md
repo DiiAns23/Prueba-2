@@ -68,7 +68,7 @@ showTables | Devuelve una lista de los nombres de las tablas almacenadas en una 
 Función |  Definición 
 ------------ | -------------
 delete | Elimina un registro de una tabla y base de datos especificados por la llave primaria.
-extrectRow | Extrae y devuelve un registro especificado por su llave primaria.
+extractRow | Extrae y devuelve un registro especificado por su llave primaria.
 insert | Inserta un registro en la estructura de datos asociada a la tabla y la base de datos.
 loadCSV | Carga un archivo CSV de una ruta especificada indicando la base de datos y tabla donde será almacenado.
 truncate | Elimina todos los registros de una tabla y base de datos.
