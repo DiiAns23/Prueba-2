@@ -10,7 +10,7 @@
 <div id='introduccion'/>
 
 ## Introducción
-La finalidad de esta interfaz es permitir al usuario la administración de sus bases de datos con una mayor facilidad que al hacerlo en una consola, Este manual permite al usuario comprender la composición de la interfaz gráfica y el cómo interactuar con la base de datos creada; la cual ha sido implementada con un Árbol B de grado 5. 
+La finalidad de la interfaz gráfica es permitir al usuario la administración de sus bases de datos con una mayor facilidad que al hacerlo en una consola, Este manual permite al usuario comprender la composición de la interfaz gráfica y el cómo interactuar con la base de datos creada; la cual ha sido implementada con un Árbol B de grado 5. 
 
 <div id='descrip'/>
 
