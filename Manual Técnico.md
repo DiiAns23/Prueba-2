@@ -23,10 +23,17 @@ Para la estructura del arbol B se utilizó un grado 5, para almacenar la informa
 
 Para preservar la información almacenada en la base de datos y evitar que se cargue información innecesaria en memoria se optó por serializar 2 cosas; la base de datos la cual almacena cada tabla con su configuración de llaves primarias y número de columnas a excepción del arbol de cada tabla, ¿por que? se tomó esta decisión debido funcionalidades de las bases de datos porque al querer llamar a la función showTables() o showDatabases() habria que iterar cada archivo guardado haciendo menos eficiente la busqueda de información, por ello se serializa cada arbol por separado debido a que son independientes de los otros, al hacer cualquier función en una base de datos y tabla especificada esta trae la información almacenada en un arbol, la utiliza para realizar los cambios necesarios, los guarda de nuevo, y cuando termina de utilizarlo lo elimina de la tabla para evitar ocupar demasiado espacio.
 
-Requerimientos del sistema
+Requerimientos del entorno de desarrollo
 -----------------------
-• Hola 
-• Adios
+• Versión de Python: Python 3.9.0 [MSC v.1927 64 bit (AMD64)] on win32
+
+• IDE utilizada: PyChram 2020.2.3
+
+• Espacio en memoria: 1 MB como mínimo
+
+• Versión de Graphviz: graphviz version 2.38.0 (20140413.2041)
+
+• Liberia Pillow de Python
 
 Diccionario de Clases 
 -----------------------
