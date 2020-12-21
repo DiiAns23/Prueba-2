@@ -3,7 +3,9 @@
 
 #### • [Descripción de la solución](#descipcion-de-la-solucion) ####
 
-#### • [Requerimientos del sistema](#requerimientos-del-sistema) ####
+#### • [Requerimientos Funcionales del Sistema](#requerimientos-funcionales-del-sistema) ####
+
+#### • [Requerimientos del Entorno de Desarrollo](#requerimientos-del-entorno-de-desarrollo) ####
 
 #### • [Diccionario de Clases](#diccionario-de-clases) ####
 
@@ -23,7 +25,7 @@ Para la estructura del arbol B se utilizó un grado 5, para almacenar la informa
 
 Para preservar la información almacenada en la base de datos y evitar que se cargue información innecesaria en memoria se optó por serializar 2 cosas; la base de datos la cual almacena cada tabla con su configuración de llaves primarias y número de columnas a excepción del arbol de cada tabla, ¿por que? se tomó esta decisión debido funcionalidades de las bases de datos porque al querer llamar a la función showTables() o showDatabases() habria que iterar cada archivo guardado haciendo menos eficiente la busqueda de información, por ello se serializa cada arbol por separado debido a que son independientes de los otros, al hacer cualquier función en una base de datos y tabla especificada esta trae la información almacenada en un arbol, la utiliza para realizar los cambios necesarios, los guarda de nuevo, y cuando termina de utilizarlo lo elimina de la tabla para evitar ocupar demasiado espacio.
 
-Requerimientos funcionales del sistema
+Requerimientos Funcionales del Sistema
 -----------------------
 • Existe un paquete el cual es el encargado de gestionar el almacenamiento de las bases de datos, proporcionando al servidor un conjunto de funciones para ingresar, modificar extraer y eliminar la información.
 
@@ -34,7 +36,7 @@ Requerimientos funcionales del sistema
 • El paquete cuenta con una interfaz gráfica que facilita el manejo de la información, para ello se requiere tener instalado [graphviz](https://graphviz.org/download/)
 
 
-Requerimientos del entorno de desarrollo
+Requerimientos del Entorno de Desarrollo
 -----------------------
 • Versión de Python: Python 3.9.0 [MSC v.1927 64 bit (AMD64)] on win32
 
