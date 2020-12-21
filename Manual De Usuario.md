@@ -34,6 +34,7 @@ Contienen la informacion correspondiente a un determinado registro dentro de una
 El programa **_`Tytus 2020`_** cuenta con una vista gráfica la cual facilita la interacción entre el sistema y el usuario final para un mejor manejo de datos. Por medio de dicha interfaz, al usuario se le permite visualizar de forma _gráfica_ la estructura con la cual los datos estan siendo almacenados en la memoria del computador. El usuario puede navegar por la aplicación seleccionando a través de botones la acción que desea realizar, si ocurre un error en el ingreso de datos el programa le notificará al usuario el tipo de error que se está cometiendo. 
 
 - Ventana Inicial: La _Ventana Inicial_ cuenta con tres opciones: *Reportes*, *Funciones* y *_Acerca De_*.
+     ----- Insertar aqui la imagen -------------
      
      | **Opción** | **Funcionalidad** |
      | ---------- | ----------------- |
@@ -42,8 +43,11 @@ El programa **_`Tytus 2020`_** cuenta con una vista gráfica la cual facilita la
      | Acerca De  | Muesta la información del Centro de estudios así como de los programadores del sistema |
      
 - Ventana Reportes: En esta ventana el usuario deberá de seleccionar una base de datos y seguidamente seleccionar una tabla, también podrá seleccionar una llave primaria de la tabla para visualizar un elemento en específico según lo desee.
+     ----- Insertar aqui la imagen -------------
 
 - Ventana Funciones: En esta pestaña se mostrarán todas las funcionalidades del sistema.
+
+     ----- Insertar aqui la imagen -------------
 
      | **Opción**                         | **Funcionalidad** |
      | ----------------------             | ----------------- |
@@ -67,7 +71,14 @@ El programa **_`Tytus 2020`_** cuenta con una vista gráfica la cual facilita la
      | Eliminar una Tupla                 | Se debe de seleccionar una base de datos, una tabla y seguidamente la llave primaria |
      | Truncate Tabla                     | Se debe de seleccionar un base de datos y seguidamente una tabla |
    
-     
+- Ventana Acerca De: Se mostrarán datos del centro de estudios así como de los programadores del sistema **_`Tytus 2020`_**
+
+     ----- Insertar aqui la imagen -------------
+
+### Valores de Retorno
+
+
+
 <div id='glosario'/>
 
 ## Glosario
