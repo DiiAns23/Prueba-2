@@ -126,6 +126,11 @@ valor_buscar | Obtiene la posición de un valor dado en los nodos.
 Diagramas de flujo
 -----------------------
 
+![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/clases.png)
+
+Diagramas de flujo
+-----------------------
+
 ### Función Insertar ###
 
 ![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/Insertar.png)
