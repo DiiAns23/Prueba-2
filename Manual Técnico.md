@@ -25,7 +25,8 @@ Para preservar la información almacenada en la base de datos y evitar que se ca
 
 Requerimientos del sistema
 -----------------------
-contenido
+• Hola 
+• Adios
 
 Diccionario de Clases 
 -----------------------
