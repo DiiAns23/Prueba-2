@@ -35,7 +35,7 @@ El programa **_`Tytus 2020`_** cuenta con una vista gráfica la cual facilita la
 
 - Ventana Inicial: La _Ventana Inicial_ cuenta con tres opciones: *Reportes*, *Funciones* y *_Acerca De_*.
 
-![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/Tytus2020.PNG)
+![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/Init.PNG)
 
    | **Opción** | **Funcionalidad** |
    | ---------- | ----------------- |
@@ -45,11 +45,11 @@ El programa **_`Tytus 2020`_** cuenta con una vista gráfica la cual facilita la
      
 - Ventana Reportes: En esta ventana el usuario deberá de seleccionar una base de datos y seguidamente seleccionar una tabla, también podrá seleccionar una llave primaria de la tabla para visualizar un elemento en específico según lo desee.
   
-![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/Reportes.PNG)
+![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/Rep.PNG)
 
 - Ventana Funciones: En esta pestaña se mostrarán todas las funcionalidades del sistema.
 
-![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/Funciones.PNG)
+![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/Func.PNG)
 
    | **Opción**                         | **Funcionalidad** |
    | ----------------------             | ----------------- |
@@ -75,7 +75,7 @@ El programa **_`Tytus 2020`_** cuenta con una vista gráfica la cual facilita la
    
 - Ventana Acerca De: Se mostrarán datos del centro de estudios así como de los programadores del sistema **_`Tytus 2020`_**
 
-![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/AcercaDe.PNG)
+![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/AD.PNG)
 
 <div id='glosario'/>
 
