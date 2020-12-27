@@ -160,3 +160,10 @@ Diagramas de flujo
 
 ![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/Eliminar.png)
 
+### Requerimientos
+* Tener instalado [pip](https://pypi.org/project/pip/).
+
+* Ejecutar el siguiente comando en la consola: `pip install PIL`
+
+* Ejecutar el siguiente comando en la consola: `pip install pillow`
+
