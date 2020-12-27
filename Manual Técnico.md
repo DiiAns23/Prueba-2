@@ -167,3 +167,9 @@ Diagramas de flujo
 
 * Ejecutar el siguiente comando en la consola: `pip install pillow`
 
+* Para iniciar copiar el siguiente código:
+```
+from team17 import Interfaz as i
+i.runInterface()
+```
+
