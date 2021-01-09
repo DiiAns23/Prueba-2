@@ -140,3 +140,27 @@ El programa **_`Tytus 2020`_** cuenta con una vista gráfica la cual facilita la
 **10. ¿Una base de datos puede tener las mismas tablas que otra base de datos?** 
 
 > _R//_ *Sí*
+
+**11. ¿Se puede tener más de una tabla con el modo seguro activo?** 
+
+> _R//_ *No*
+
+**12. ¿Puedo referenciar una llave foránea a una misma tabla?** 
+
+> _R//_ *No*
+
+**13. ¿Se puede agregar dos veces el mismo nombre único a una tabla?** 
+
+> _R//_ *No*
+
+**13. Cuando desactivo el modo seguro, ¿por qué no encuentro registro de lo sucedido durante el timepo en que el modo seguro estuvo activado?** 
+
+> _R//_ *Cuando se desactiva el modo seguro el registro creado es eliminado por completo.*
+
+**14. ¿Por qué no se genera el Cheksum?** 
+
+> _R//_ *Puede que este indicando el uso de un algoritmo distinto a los permitidos (MD5, SHA256).*
+
+**15. ¿Puedo usar una codificación distinta a lo proporcionados por Tytus?** 
+
+> _R//_ *No
