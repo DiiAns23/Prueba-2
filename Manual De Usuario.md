@@ -4,6 +4,7 @@
 - [Introduccion](#introduccion)
 - [Descripción General del Sistema](#descrip)
 - [Aplicacion](#apli)
+- [Funcionalidades](#funcionalidades)
 - [Glosario](#glosario)
 - [FAQ](#questions)
 
@@ -51,6 +52,15 @@ El programa **_`Tytus 2020`_** cuenta con una vista gráfica la cual facilita la
 
 ![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/Func.PNG)
 
+   
+- Ventana Acerca De: Se mostrarán datos del centro de estudios así como de los programadores del sistema **_`Tytus 2020`_**
+
+
+![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/A_D.PNG) 
+
+<div id='Funcionalidades'/>
+
+### Funcionalidades
    | **Opción**                         | **Funcionalidad** |
    | ----------------------             | ----------------- |
    | Cambiar el modo de almacenamiento de una Base de Datos                     | Se debe de seleccionar un base de datos y seguidamente el modo de almacenamiento al que se quiere cambiar. |
@@ -73,12 +83,6 @@ El programa **_`Tytus 2020`_** cuenta con una vista gráfica la cual facilita la
    | BlockChain                     | Cuando el modo seguro está activado, se registran todos los movimientos de inserción o elimación en una tabla. |
    | Gráfico de una Base de Datos                     | Se debe seleccionar una base de datos. |
    | Gráfico de dependecias de una Tabla                     | Se debe seleccionar una base de datos y una tabla. |
-   
-- Ventana Acerca De: Se mostrarán datos del centro de estudios así como de los programadores del sistema **_`Tytus 2020`_**
-
-
-![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/A_D.PNG) 
-
 
 <div id='glosario'/>
 
