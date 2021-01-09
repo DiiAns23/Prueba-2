@@ -10,14 +10,14 @@
 <div id='introduccion'/>
 
 ## Introducción
-La finalidad de la interfaz gráfica es permitir al usuario la administración de sus bases de datos con una mayor facilidad que al hacerlo en una consola, Este manual permite al usuario comprender la composición de la interfaz gráfica y el cómo interactuar con la base de datos creada; la cual ha sido implementada con un Árbol B de grado 5. 
+La finalidad de la interfaz gráfica es permitir al usuario la administración de sus bases de datos con una mayor facilidad que al hacerlo en una consola. Este manual permite al usuario la visualización de las distintas estructuras como lo son las relaciones de las tablas de una base de datos, la relación de una tabla con respecto a sus llaves primarias e índices únicos así como la visualización del blockchain de los registros al momento de activar el modo seguro en la aplicación.
 
 <div id='descrip'/>
 
 ## Descripción
 
   - **Estructura de Almacenamiento**: 
-Para la realización de este proyecto, la estructura o modo de almacenamiendo utilizada fue por medio de un Arbol B de tamaño cinco.
+Para la realización de este proyecto, la estructura o modo de almacenamiendo son: árboles; AVL, B, B+, tablas: Hash e Isam así como el modo JSON y Dict.
   - **Bases de Datos**:
 Las _Bases de Datos_ son un conjunto de datos pertenecientes a un mismo contexto y almacenados sistemáticamente para su uso posterior. Cada _Base de Datos_ se compone de una o más _tablas_.
   
@@ -31,19 +31,19 @@ Contienen la informacion correspondiente a un determinado registro dentro de una
 
 ## Aplicación
 ### Interfaz Gráfica (GUI)
-El programa **_`Tytus 2020`_** cuenta con una vista gráfica la cual facilita la interacción entre el sistema y el usuario final para un mejor manejo de datos. Por medio de dicha interfaz, al usuario se le permite visualizar de forma _gráfica_ la estructura con la cual los datos estan siendo almacenados en la memoria del computador. El usuario puede navegar por la aplicación seleccionando a través de botones la acción que desea realizar, si ocurre un error en el ingreso de datos el programa le notificará al usuario el tipo de error que se está cometiendo. 
+El programa **_`Tytus 2020`_** cuenta con una vista gráfica la cual facilita la interacción entre el sistema y el usuario final para un mejor manejo de datos. Por medio de dicha interfaz, al usuario se le permite visualizar de forma _gráfica_ una estructura relacional de las Bases de Datos así como de sus Tablas. El usuario puede navegar por la aplicación seleccionando a través de botones la acción que desea realizar, si ocurre un error en el ingreso de datos el programa le notificará al usuario el tipo de error que se está cometiendo. 
 
-- Ventana Inicial: La _Ventana Inicial_ cuenta con tres opciones: *Reportes*, *Funciones* y *_Acerca De_*.
+- Ventana Inicial: La _Ventana Inicial_ cuenta con tres opciones: *Seguridad*, *Grafos* y *_Acerca De_*.
 
 ![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/Init.PNG)
 
    | **Opción** | **Funcionalidad** |
    | ---------- | ----------------- |
-   | Reportes   | Por medio de esta opción, el usuario podrá generar y visualizar la estructura de los datos en forma de _Árbol B_ |
-   | Funciones  | Con esta funcion, el usuario puede acceder a todas las funcionalidades de Bases de Datos, Tablas y Tuplas  |
+   | Seguridad   |Para esta función, el usuario podrá realizar funciones como: ModeSafeOff así como mostrar el grafo de un BlockChain|
+   | Grafos  | Con esta funcion, el usuario podrá realizar funciones como: Mostrar las relaciones de dependencia de las tablas de una base de datos así como la relación de las PK con los índices únicos con respecto a sus demás datos |
    | Acerca De  | Muesta la información del Centro de estudios así como de los programadores del sistema |
      
-- Ventana Reportes: En esta ventana el usuario deberá de seleccionar una base de datos y seguidamente seleccionar una tabla, también podrá seleccionar una llave primaria de la tabla para visualizar un elemento en específico según lo desee.
+- Ventana Seguridad: En esta ventana el usuario deberá de seleccionar una base de datos y seguidamente seleccionar una tabla, también podrá seleccionar una llave primaria de la tabla para visualizar un elemento en específico según lo desee.
   
 ![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/Rep.PNG)
 
