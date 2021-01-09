@@ -48,13 +48,21 @@ El programa **_`Tytus 2020`_** cuenta con una vista gráfica la cual facilita la
   
 ![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/Rep.PNG)
 
+   | **Opción** | **Funcionalidad** |
+   | ---------- | ----------------- |
+   | ModeSafeOff   |Para desactivar el modo seguro, el usuario deberá de ingresar el nombre de una base de datos y su respectiva tabla|
+   | BlockChain  | Para mostrar el grafo del blockchain, el usuario deberá de ingresar el nombre de una base de datos y su respectiva tabla |
+
 - Ventana Grafos: El usuario podrá seleccionar las opciones para graficar las tablas de una base de datos y sus relaciones o mostrar la dependencia de los datos de una tabla con respecto a su Llave Primaria e Índice Único.
 
 ![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/Func.PNG)
 
+   | **Opción** | **Funcionalidad** |
+   | ---------- | ----------------- |
+   | Bases de Datos | Para mostrar el grafo de las relaciones de dependencia de una base de datos y sus tablas el usuario deberá de ingresar el nombre respectivo para cada una de ellas|
+   | Tabla  | El usuario deberá de ingresar el nombre de la base de datos y una tabla para mostrar la dependencia de sus datos con respecto a una LLave Primaria o Índice Único |
    
 - Ventana Acerca De: Se mostrarán datos del centro de estudios así como de los programadores del sistema **_`Tytus 2020`_**
-
 
 ![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/A_D.PNG) 
 
@@ -140,27 +148,3 @@ El programa **_`Tytus 2020`_** cuenta con una vista gráfica la cual facilita la
 **10. ¿Una base de datos puede tener las mismas tablas que otra base de datos?** 
 
 > _R//_ *Sí*
-
-**11. ¿Se puede tener más de una tabla con el modo seguro activo?** 
-
-> _R//_ *No*
-
-**12. ¿Puedo referenciar una llave foránea a una misma tabla?** 
-
-> _R//_ *No*
-
-**13. ¿Se puede agregar dos veces el mismo nombre único a una tabla?** 
-
-> _R//_ *No*
-
-**13. Cuando desactivo el modo seguro, ¿por qué no encuentro registro de lo sucedido durante el timepo en que el modo seguro estuvo activado?** 
-
-> _R//_ *Cuando se desactiva el modo seguro el registro creado es eliminado por completo.*
-
-**14. ¿Por qué no se genera el Cheksum?** 
-
-> _R//_ *Puede que este indicando el uso de un algoritmo distinto a los permitidos (MD5, SHA256).*
-
-**15. ¿Puedo usar una codificación distinta a lo proporcionados por Tytus?** 
-
-> _R//_ *No
