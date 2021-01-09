@@ -43,36 +43,16 @@ El programa **_`Tytus 2020`_** cuenta con una vista gráfica la cual facilita la
    | Grafos  | Con esta funcion, el usuario podrá realizar funciones como: Mostrar las relaciones de dependencia de las tablas de una base de datos así como la relación de las PK con los índices únicos con respecto a sus demás datos |
    | Acerca De  | Muesta la información del Centro de estudios así como de los programadores del sistema |
      
-- Ventana Seguridad: En esta ventana el usuario deberá de seleccionar una base de datos y seguidamente seleccionar una tabla, también podrá seleccionar una llave primaria de la tabla para visualizar un elemento en específico según lo desee.
+- Ventana Seguridad: En esta ventana el usuario podrá seleccionar las opciones: ModeSafeOff o BlockChain.
   
 ![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/Rep.PNG)
 
-- Ventana Funciones: En esta pestaña se mostrarán todas las funcionalidades del sistema.
+- Ventana Grafos: El usuario podrá seleccionar las opciones para graficar las tablas de una base de datos y sus relaciones o mostrar la dependencia de los datos de una tabla con respecto a su Llave Primaria e Índice Único.
 
 ![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/Func.PNG)
 
    | **Opción**                         | **Funcionalidad** |
    | ----------------------             | ----------------- |
-   | Nueva Base de Datos                | Para crear una nueva base de datos, el usuario solo deberá de ingresar el nombre que desee, el modo en que se creará y el tipo de codificación que tendrá. |
-   | Mostrar Bases de Datos             | Mostrará en pantalla todas las bases de datos existentes en la memoria del computador |
-   | Cambiar Nombre a una Base de Datos | El usuario debe de seleccionar una base de datos y posteriormente ingresar el nuevo nombre |
-   | Eliminar una Base de Datos         | El usuario deberá de seleccionar la base de datos a eliminar |
-   | Nueva Tabla                        | Se debe de seleccionar una base de datos y posteriormente ingresar el nombre de la nueva tabla |
-   | Mostrar Tablas                     | Se debe de seleccionar una base de datos para mostrar las tablas que contiene dicha base de datos |
-   | Mostrar Datos                      | Se debe de seleccionar una base de datos y posteriormente seleccionar una tabla para poder visualizar los datos |
-   | Rango Tabla                        | Se debe de seleccionar una base de datos, una tabla, un número de columna y posteriormente ingresar el límite inferior y superior |
-   | Agregar Llave Primaria             | Se debe de seleccionar una base de datos, una tabla y posteriormente ingresar las columnas que se desean que sean llaves primarias |
-   | Eliminar Llave Primaria            | Se debe de seleccionar una base de datos y posteriormente una tabla para que su llave primaria sea eliminada |
-   | Cambiar nombre de una Tabla        | Se debe de seleccionar una base de datos, una tabla y escribir el nuevo nombre que se le desea dar a dicha tabla |
-   | Agregar columna a una Tabla        | Se debe de seleccionar una base de datos, una tabla y el nuevo valor a ingresar en todos los registros existentes |
-   | Elimina columna de una Tabla       | Se debe de seleccionar una base de datos, una tabla y el numero de columna que se desea eliminar |
-   | Eliminar una Tabla                 | Se debe de seleccionar una base de datos y seguidamente la tabla a eliminar |
-   | Insertar Tupla                     | Se debe de seleccionar una base de datos, una tabla y seguidamente ingresar los datos a ingresar en la fila o tupla |
-   | Cargar CSV                         | Se debe de seleccionar una base de datos y una tabla, seguidamente ingresar el nombre del archivo con su extensión |
-   | Extraer una Tupla                  | Se debe de seleccionar una base de datos, una tabla y seguidamente la llave primaria |
-   | Eliminar una Tupla                 | Se debe de seleccionar una base de datos, una tabla y seguidamente la llave primaria |
-   | Truncate Tabla                     | Se debe de seleccionar un base de datos y seguidamente una tabla |
-   | Truncate Tabla                     | Se debe de seleccionar un base de datos y seguidamente una tabla |
    | Cambiar el modo de almacenamiento de una Base de Datos                     | Se debe de seleccionar un base de datos y seguidamente el modo de almacenamiento al que se quiere cambiar. |
    | Cambiar el modo de almacenamiento de una Tabla                     | Se debe de seleccionar una Tabla y seguidamente el modo de almacenamiento al que se quiere cambiar. |
    | Agregar índice de Llave Foránea                     | Se debe de seleccionar una Base de datos, una tabla, un nombre para el índice, el nombre de una tabla de referencia y los índices de la llave primaria. |
