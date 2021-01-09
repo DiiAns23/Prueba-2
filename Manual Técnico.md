@@ -52,13 +52,74 @@ Diccionario de Clases
 -----------------------
 Clase |  Definición 
 ------------ | -------------
-`ArbolB` | Contiene todas la funciones que le rellenan y dan la forma al arbol B, instanciando nodos.
-`DB` | Inicializa y contiene todas las funciones con respecto a crear, editar, leer y eliminar de las bases de datos, tablas y registros.
-`NodoB` | Inicializa y contiene la estructura de los nodos que se conforman el arbol B.
+`Block` | Contiene todas la funciones inicializar y generar el hash para el blockchain.
+`main` | Inicializa y contiene todas las funciones con respecto a crear, editar, leer y eliminar de las bases de datos, tablas y registros.
 `PP` | Contiene todas las funciones de la interfaz gráfica.
 
 Diccionario de Funciones 
 -----------------------
+
+### Funciones de Unificación de modos de almacenamiento ###
+
+Función |  Definición 
+------------ | -------------
+`createDatabase` | Crea una base de datos.
+
+### Funciones de Administrador del modo de almacenamiento ###
+
+Función |  Definición 
+------------ | -------------
+`alterDatabaseMode` | Cambia el modo de una base de datos.
+`alterTableMode` | Cambia el modo de una tabla.
+
+### Funciones de Administración de índices ###
+
+Función |  Definición 
+------------ | -------------
+`alterTableAddFK` | Agrega un índice de llave foránea, creando una estructura adicional con el modo indicado para la base de datos.
+`alterTableAddIndex` | Agrega un índice, creando una estructura adicional con el modo indicado para la base de datos.
+`alterTableAddUnique` | Agrega un índice único, creando una estructura adicional con el modo indicado para la base de datos.
+`alterTableDropFK` | Destruye el índice tanto como metadato de la tabla como la estructura adicional creada.
+`alterTableDropIndex` | Destruye el índice tanto como metadato de la tabla como la estructura adicional creada.
+`alterTableDropUnique` | Destruye el índice tanto como metadato de la tabla como la estructura adicional creada.
+
+### Funciones de Administración de la codificación###
+
+Función |  Definición 
+------------ | -------------
+`alterDatabaseEncoding` | Asociada una codificación a una base de datos por completo.
+
+### Funciones de Generacion del Checksum ###
+
+Función |  Definición 
+------------ | -------------
+`checksumDatabase` | Genera el checksum de una base de datos.
+`checksumTable` | Genera el checksum de una tabla.
+
+### Funciones de Compresión de datos ###
+
+Función |  Definición 
+------------ | -------------
+`alterDatabaseCompress` | Agregue compresión utilizando la biblioteca zlib de python y las funciones compress y decompress a una base de datos.
+`alterDatabaseDecompress` | Quita la compresión de una base de datos especificada.
+`alterTableCompress` | Agregue compresión utilizando la biblioteca zlib de python y las funciones compress y decompress a un tabla.
+`alterTableDecompress` | Quita la compresión de una tabla.
+
+### Funciones de Seguridad ###
+
+Función |  Definición 
+------------ | -------------
+`encrypt` | Crifra el texto backup con la llave password y devuelve el criptograma.
+`decrypt` | Descrifra el texto cipherBackup con la llave password y devuelve el texto plano.
+`safeModeOn` | Activa el modo seguro para una tabla de una base de datos.
+`safeModeOff` | Desactiva el modo seguro en la tabla especificada de la base de datos.
+
+### Funciones de Grafos ###
+
+Función |  Definición 
+------------ | -------------
+`graphDSD` | Genera un gráfico mediante Graphviz acerca de la base de datos especificada.
+`graphDF` | Genera un gráfico mediante Graphviz acerca de las dependencias funcionales de una tabla especificada de una base de datos.
 
 ### Funciones CRUD de las bases de datos ###
 
