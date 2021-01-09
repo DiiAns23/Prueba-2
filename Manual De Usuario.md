@@ -68,7 +68,7 @@ El programa **_`Tytus 2020`_** cuenta con una vista gráfica la cual facilita la
 
 <div id='Funcionalidades'/>
 
-### Funcionalidades
+## Funcionalidades
    | **Opción**                         | **Funcionalidad** |
    | ----------------------             | ----------------- |
    | Cambiar el modo de almacenamiento de una Base de Datos                     | Se debe de seleccionar un base de datos y seguidamente el modo de almacenamiento al que se quiere cambiar. |
