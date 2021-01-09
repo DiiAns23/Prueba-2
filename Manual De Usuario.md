@@ -53,7 +53,7 @@ El programa **_`Tytus 2020`_** cuenta con una vista gráfica la cual facilita la
 
    | **Opción**                         | **Funcionalidad** |
    | ----------------------             | ----------------- |
-   | Nueva Base de Datos                | Para crear una nueva base de datos, el usuario solo deberá de ingresar el nombre que desee |
+   | Nueva Base de Datos                | Para crear una nueva base de datos, el usuario solo deberá de ingresar el nombre que desee, el modo en que se creará y el tipo de codificación que tendrá. |
    | Mostrar Bases de Datos             | Mostrará en pantalla todas las bases de datos existentes en la memoria del computador |
    | Cambiar Nombre a una Base de Datos | El usuario debe de seleccionar una base de datos y posteriormente ingresar el nuevo nombre |
    | Eliminar una Base de Datos         | El usuario deberá de seleccionar la base de datos a eliminar |
@@ -72,6 +72,27 @@ El programa **_`Tytus 2020`_** cuenta con una vista gráfica la cual facilita la
    | Extraer una Tupla                  | Se debe de seleccionar una base de datos, una tabla y seguidamente la llave primaria |
    | Eliminar una Tupla                 | Se debe de seleccionar una base de datos, una tabla y seguidamente la llave primaria |
    | Truncate Tabla                     | Se debe de seleccionar un base de datos y seguidamente una tabla |
+   | Truncate Tabla                     | Se debe de seleccionar un base de datos y seguidamente una tabla |
+   | Cambiar el modo de almacenamiento de una Base de Datos                     | Se debe de seleccionar un base de datos y seguidamente el modo de almacenamiento al que se quiere cambiar. |
+   | Cambiar el modo de almacenamiento de una Tabla                     | Se debe de seleccionar una Tabla y seguidamente el modo de almacenamiento al que se quiere cambiar. |
+   | Agregar índice de Llave Foránea                     | Se debe de seleccionar una Base de datos, una tabla, un nombre para el índice, el nombre de una tabla de referencia y los índices de la llave primaria. |
+   | Destruir índice de Llave Foránea                     | Se debe de seleccionar una Base de datos, una tabla, un nombre para el índice y los índices de la llave primaria. |
+   | Destruir Índice Único                     | Se debe de seleccionar una Base de datos, una tabla y un nombre para el índice. |
+   | Cambiar Índice Único de una Tabla                     | Se debe de seleccionar una Base de datos, una tabla, un nombre para el índice y los índices de la llave primaria. |
+   | Destruir Índice Único de una Tabla                     | Se debe de seleccionar una Base de datos, una tabla y un nombre para el índice. |
+   | Cambiar codificación a una Base de Datos                     | Se debe seleccionar una base de datos y seguidamente el tipo de codificación. |
+   | Generar diggest de una Base de Datos                     | Se debe indicar una Base de Datos y el modo en que está almacenada. |
+   | Generar diggest de una Tabla                     | Se debe indicar una Base de Datos, una tabla y el modo en que está almacenada. |
+   | Compresión de una Base de Datos                     | Se debe indicar una Base de Datos y el nivel de compresión deseado. |
+   | Quitar compresión de una Base de Datos                     | Se debe indicar una Base de Datos. |
+   | Compresión de una tabla                     | Se debe indicar una Base de Datos, una Tabla y el nivel de compresión deseado. |
+   | Cifrar una Base de Datos o un Backup                     | Se debe seleccionar una base de datos o backup y seguidamente la llave. |
+   | Decifrar una Base de Datos o un Backup                     | Se debe seleccionar una base de datos cifrada o backup cifrado  y seguidamente la llave. |
+   | Activar modo seguro                     | Se debe seleccionar una base de datos y seguidamente una tabla de esa base de datos. |
+   | Desactivar modo seguro                     | Se debe seleccionar una base de datos y seguidamente una tabla de esa base de datos. |
+   | BlockChain                     | Cuando el modo seguro está activado, se registran todos los movimientos de inserción o elimación en una tabla. |
+   | Gráfico de una Base de Datos                     | Se debe seleccionar una base de datos. |
+   | Gráfico de dependecias de una Tabla                     | Se debe seleccionar una base de datos y una tabla. |
    
 - Ventana Acerca De: Se mostrarán datos del centro de estudios así como de los programadores del sistema **_`Tytus 2020`_**
 
