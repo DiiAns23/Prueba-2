@@ -36,7 +36,7 @@ El programa **_`Tytus 2020`_** cuenta con una vista gráfica la cual facilita la
 
 - Ventana Inicial: La _Ventana Inicial_ cuenta con tres opciones: *Seguridad*, *Grafos* y *_Acerca De_*.
 
-![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/Init.PNG)
+![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/inicio.png)
 
    | **Opción** | **Funcionalidad** |
    | ---------- | ----------------- |
@@ -46,7 +46,7 @@ El programa **_`Tytus 2020`_** cuenta con una vista gráfica la cual facilita la
      
 - Ventana Seguridad: En esta ventana el usuario podrá seleccionar las opciones: ModeSafeOff o BlockChain.
   
-![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/Rep.PNG)
+![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/seguridad.png)
 
    | **Opción** | **Funcionalidad** |
    | ---------- | ----------------- |
@@ -55,7 +55,7 @@ El programa **_`Tytus 2020`_** cuenta con una vista gráfica la cual facilita la
 
 - Ventana Grafos: El usuario podrá seleccionar las opciones para graficar las tablas de una base de datos y sus relaciones o mostrar la dependencia de los datos de una tabla con respecto a su Llave Primaria e Índice Único.
 
-![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/Func.PNG)
+![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/grafos.png)
 
    | **Opción** | **Funcionalidad** |
    | ---------- | ----------------- |
@@ -64,7 +64,7 @@ El programa **_`Tytus 2020`_** cuenta con una vista gráfica la cual facilita la
    
 - Ventana Acerca De: Se mostrarán datos del centro de estudios así como de los programadores del sistema **_`Tytus 2020`_**
 
-![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/A_D.PNG) 
+![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/acercade.png) 
 
 <div id='Funcionalidades'/>
 
