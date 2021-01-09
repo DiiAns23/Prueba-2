@@ -105,46 +105,33 @@ El programa **_`Tytus 2020`_** cuenta con una vista gráfica la cual facilita la
 | Llave primaria | Identificador único para una tabla de una base de datos |
 | CSV | Valores separados por coma o Comma-Separated Values por sus siglas en inglés |
 | Truncate | Elimina todos los registros de determinado lugar |
+| BlockChain | Cadena de bloques encriptados, enlazados entre si haciendo uso de un Hash propio para cada bloque. |
+| Hash | Es una función que convierte una entrada de letras y números en una salida cifrada de una longitud fija. |
+| Checksum | Es el resultado de la ejecución de un algoritmo dentro de un archivo único. |
 
 <div id='questions'/> 
 
 ## Preguntas Frecuentes (FAQ)
-**1. ¿Puedo crear dos veces la misma base de datos?**    
+**1. ¿Se puede tener más de una tabla con el modo seguro activo?** 
 
-> _R//_ *No, el nombre de la base de datos debe de ser único.*
+> _R//_ *No*
 
-**2. ¿Cuantas tablas puedo crear dentro de una base de datos?**   
+**2. ¿Puedo referenciar una llave foránea a una misma tabla?** 
 
-> _R//_ *No existe un límite para crear tablas dentro de una base de datos.*
+> _R//_ *No*
 
-**3. ¿Cuáles son los nombres válidos para Bases de Datos y Tablas?**   
+**3. ¿Se puede agregar dos veces el mismo nombre único a una tabla?** 
 
-> _R//_ *El primer caracter debe de ser una letra del abecedario y no puede llevar nombres de palabras reservadas.*
+> _R//_ *No*
 
-**4. ¿Pueden existir llaves primarias duplicadas?** 
+**4. Cuando desactivo el modo seguro, ¿por qué no encuentro registro de lo sucedido durante el timepo en que el modo seguro estuvo activado?** 
 
-> _R//_ *No, la llave primaria es un identificador único para cada registro.*
+> _R//_ *Cuando se desactiva el modo seguro el registro creado es eliminado por completo.*
 
-**5. ¿Por qué no puedo insertar un nuevo registro?** 
+**5. ¿Por qué no se genera el Cheksum?** 
 
-> _R//_ *Puede que este mal escrito, la llave este duplicada o no cumpla con la longitud de columnas de la tabla.*
+> _R//_ *Puede que este indicando el uso de un algoritmo distinto a los permitidos (MD5, SHA256).*
 
-**6. ¿Por qué no puedo agregar una llave primaria?** 
+**6. ¿Puedo usar una codificación distinta a lo proporcionados por Tytus?** 
 
-> _R//_ *Puede que la columna seleccionada contenga valores repetidos.*
-
-**7. ¿Cómo cargo un CSV?** 
-
-> _R//_ *Debes de seleccionar una base de datos y una tabla la cual debe de tener la misma cantidad de columnas que el archivo que deseas cargar*
-
-**8. ¿Puedo modificar el grado del árbol?** 
-
-> _R//_ *No, por el momento esa función no ha sido habilita*
-
-**9. ¿Cuántas columnas puedo poner como llave primaria?** 
-
-> _R//_ *No hay límite, solo se debe verificar que las columnas no contengan valores repetidos*
-
-**10. ¿Una base de datos puede tener las mismas tablas que otra base de datos?** 
-
-> _R//_ *Sí*
+> _R//_ *No.*
