@@ -83,6 +83,8 @@ Función |  Definición
 `Separacion` | Recorre caracter por caracter la expresion ingresada en el archivo. 
 
 ### Funciones para Grafos ###
+
+Función |  Definición 
 ------------ | -------------
 `CMD` | Funcion utilizada en distintas clases para la generacion de los grafos.
 
