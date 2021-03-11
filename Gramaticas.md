@@ -18,8 +18,8 @@ GRAMATICAS
    | `LLAVEI`    | {     | `ASCII`   | \[!-$&<-=@/]
    | `LLAVED`    | }      | `TODO `  | \[^.\*]
    | `DPUNTOS`   | :   | `PUNTO` | .
-   | `INTERR` | ?  `PTCOMA` | ;
-   | `BARRA` | barra  | `MAS` | +
+   | `INTERR` | ?  |  `PTCOMA` | ;
+   | `BARRA` | \|  | `MAS` | +
    | `POR`   |  *  | `PORC` | %%
    | `ENTERO`  | \[0-9]  |  `RAN` | (\[a-zA-Z_])\[a-zA-Z0-9_]* 
    | `ALFAMAY` | \[A-Z]   | `ALFAMIN`  | \[a-z]
