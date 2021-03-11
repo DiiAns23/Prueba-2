@@ -11,19 +11,21 @@
 
 #### • [Diccionario de Funciones](#diccionario-de-funciones) ####
 
-#### • [Diagramas de Flujo](#diagramas-de-flujo) ####
 
 Descripción de la solución 
 -----------------------
-#### Almacenamiento ####
 
-Para el almacenamiento de las bases de datos se utilizó un diccionario en el cual se utiliza de índice el nombre de la base de datos; no importando si lo escriben en minúsculas o mayúsculas, al igual que se utilizarón diccionarios para las tablas; donde el índice es el nombre de la tabla, y el valor es el arbol correspondiente.
+#### Ejecucion ####
 
-Para la estructura del arbol B se utilizó un grado 5, para almacenar la información en el arbol, se inserta una tupla con 2 posiciones, en la primera posicion se almacena la llave primaria de la información, y en la segunda posición se guarda la información que se desea almacenar, el arbol ordena dependiendo el número, en caso de que la llave primaria sea un string entonces se utilizará una funcion para sumar todos sus caracteres para comparar su tamaño en ASCII, dando prioridad a los números.
+Para ejecutar los archivos _Léxico_ y _Sintáctico_ se utilizó el archivo _*Compilar.bat*_ el cual es un tipo de puente entre los archivos ya antes mencionados y a su vez la creación de los archivos Léxico.java y Sintáctico.java.
 
-#### Serialización ####
+#### Lectura ####
 
-Para preservar la información almacenada en la base de datos y evitar que se cargue información innecesaria en memoria se optó por serializar 2 cosas; la base de datos la cual almacena cada tabla con su configuración de llaves primarias y número de columnas a excepción del arbol de cada tabla, ¿por que? se tomó esta decisión debido funcionalidades de las bases de datos porque al querer llamar a la función showTables() o showDatabases() habria que iterar cada archivo guardado haciendo menos eficiente la busqueda de información, por ello se serializa cada arbol por separado debido a que son independientes de los otros, al hacer cualquier función en una base de datos y tabla especificada esta trae la información almacenada en un arbol, la utiliza para realizar los cambios necesarios, los guarda de nuevo, y cuando termina de utilizarlo lo elimina de la tabla para evitar ocupar demasiado espacio.
+Para una lectura rapida del archivo de entrada se utilizaron las herramientas JLex y Cup, creando gramaticas en la misma. Los archivos utilizados para este proceso son Lexico, Sintáctico, Léxico.java y Sintáctico.java.
+
+#### Analizador ####
+
+El programa lee caracter por caracter el archivo de entrada, el cual deberá de tener una extensión de tipo _olc_ , si un caracter no cumple con la estructura definida en el programa se creará un archivo de Reporte de Errores de tipo pdf.
 
 Requerimientos Funcionales del Sistema
 -----------------------
@@ -38,169 +40,62 @@ Requerimientos Funcionales del Sistema
 
 Requerimientos del Entorno de Desarrollo
 -----------------------
-• Versión de Python: Python 3.9.0 [MSC v.1927 64 bit (AMD64)] on win32
+• Versión de Java: Java 8.0.0 o superior
 
-• IDE utilizada: PyChram 2020.2.3
+• IDE utilizada: NetBeans IDE 8.2
 
-• Espacio en memoria: 1 MB como mínimo
+• Espacio en memoria: 20 MB como mínimo
 
-• Versión de Graphviz: graphviz version 2.38.0 (20140413.2041)
+• Versión de Graphviz:  graphviz version 2.46.1 (20210213.1702)
 
-• Liberia Pillow de Python
+• Liberia JLex y Cup
 
 Diccionario de Clases 
 -----------------------
 Clase |  Definición 
 ------------ | -------------
-`Block` | Contiene todas la funciones inicializar y generar el hash para el blockchain.
-`main` | Inicializa y contiene todas las funciones con respecto a crear, editar, leer y eliminar de las bases de datos, tablas y registros.
-`PP` | Contiene todas las funciones de la interfaz gráfica.
+`Arbol` | Genera todas las estructuras del programa como el Arbol de Expresiones Regulares, Tabla Siguiente, Tabla Transiciones, AFD y AFND.
+`AFND` | Clase en la cual estan los datos necesarios para realizar el Automata Finito No Determinista.
+`Estado` | Contiene los datos de los estados creados para el Automata Finito Determinista.
+`Expresion_Regular` | Realiza la lectura caracter por caracter de la expresion ingresada.
+`Generar_AFD, Generar_AFND, Generar_Arbol, Tabla_Follow y Tabla_Transicion` | Su funcionalidad es extraer los datos de la clase _Arbol_ para realizar los grafos correspondientes con la herramienta _GraphViz_
+`Interfaz1` | Clase de tipo visual para el usuario que puede mandar a llamar a las claes ya antes mencionadas. Interfaz Grafica.
 
-Diccionario de Funciones 
+Diccionario de Funciones
 -----------------------
 
-### Funciones de Unificación de modos de almacenamiento ###
+### Funciones Principales ###
 
 Función |  Definición 
 ------------ | -------------
-`createDatabase` | Crea una base de datos.
+`Arbol` | Manda a llamar a los distintos metodos para realizar todas las funciones del programa
+`Agregar` | Genera los nodos para la realización del arbol de expresiones.
+`Follow` | Genera la lista de siguientes las cuales se contienen en el arbol de expresiones.
+`Estados` | Genera los estados para realizar el grafo del AFD.
+`Crear_AFND` | Genera los estados para realizar el grafo del AFND.
 
-### Funciones de Administrador del modo de almacenamiento ###
-
-Función |  Definición 
------------- | -------------
-`alterDatabaseMode` | Cambia el modo de una base de datos.
-`alterTableMode` | Cambia el modo de una tabla.
-
-### Funciones de Administración de índices ###
+### Funciones Secundarias  ###
 
 Función |  Definición 
 ------------ | -------------
-`alterTableAddFK` | Agrega un índice de llave foránea, creando una estructura adicional con el modo indicado para la base de datos.
-`alterTableAddIndex` | Agrega un índice, creando una estructura adicional con el modo indicado para la base de datos.
-`alterTableAddUnique` | Agrega un índice único, creando una estructura adicional con el modo indicado para la base de datos.
-`alterTableDropFK` | Destruye el índice tanto como metadato de la tabla como la estructura adicional creada.
-`alterTableDropIndex` | Destruye el índice tanto como metadato de la tabla como la estructura adicional creada.
-`alterTableDropUnique` | Destruye el índice tanto como metadato de la tabla como la estructura adicional creada.
+`Recorrer_Arbol` | Realiza la escritura del archivo para generar el archivo dot.
+`recorrer` | Realiza la adicion de Siguientes 
+`Separacion` | Recorre caracter por caracter la expresion ingresada en el archivo. 
 
-### Funciones de Administración de la codificación ###
+### Funciones para Grafos ###
+`CMD` | Funcion utilizada en distintas clases para la generacion de los grafos.
 
-Función |  Definición 
------------- | -------------
-`alterDatabaseEncoding` | Asociada una codificación a una base de datos por completo.
-
-### Funciones de Generacion del Checksum ###
-
-Función |  Definición 
------------- | -------------
-`checksumDatabase` | Genera el checksum de una base de datos.
-`checksumTable` | Genera el checksum de una tabla.
-
-### Funciones de Compresión de datos ###
-
-Función |  Definición 
------------- | -------------
-`alterDatabaseCompress` | Agregue compresión utilizando la biblioteca zlib de python y las funciones compress y decompress a una base de datos.
-`alterDatabaseDecompress` | Quita la compresión de una base de datos especificada.
-`alterTableCompress` | Agregue compresión utilizando la biblioteca zlib de python y las funciones compress y decompress a un tabla.
-`alterTableDecompress` | Quita la compresión de una tabla.
-
-### Funciones de Seguridad ###
-
-Función |  Definición 
------------- | -------------
-`encrypt` | Crifra el texto backup con la llave password y devuelve el criptograma.
-`decrypt` | Descrifra el texto cipherBackup con la llave password y devuelve el texto plano.
-`safeModeOn` | Activa el modo seguro para una tabla de una base de datos.
-`safeModeOff` | Desactiva el modo seguro en la tabla especificada de la base de datos.
-
-### Funciones de Grafos ###
-
-Función |  Definición 
------------- | -------------
-`graphDSD` | Genera un gráfico mediante Graphviz acerca de la base de datos especificada.
-`graphDF` | Genera un gráfico mediante Graphviz acerca de las dependencias funcionales de una tabla especificada de una base de datos.
-
-### Funciones CRUD de las bases de datos ###
-
-Función |  Definición 
------------- | -------------
-`alterDatabase` | Renombra la base de datos seleccionada.
-`createDatabase` | Crea una base de datos.
-`dropDatabase` | Elimina por completo la base de datos seleccionada.
-`showDatabase` | Devuelve una lista de los nombres de las bases de datos.
-
-### Funciones CRUD de las tablas ###
-
-Función |  Definición 
------------- | -------------
-`alterAddColumn` | Agrega una columna al final de cada registro de la tabla y base de datos especificada.
-`alterAddPK` | Asocia a la tabla una llave primaria simple o compuesta mediante la lista de número de columnas.
-`alterDropColumn` | Eliminar una n-ésima columna de cada registro de la tabla excepto si son llaves primarias.
-`alterDropPK` | Elimina la llave primaria actual en la información de la tabla, manteniendo el índice actual de la estructura.
-`alterTable` | Renombra el nombre de la tabla de una base de datos especificada.
-`createTable` | Crea una tabla en una base de datos especificada recibiendo una lista de índices referentes a la llave primaria.
-`dropTable` | Elimina por completo una tabla de una base de datos especificada.
-`extractRangeTable` | Extrae y devuelve una lista con los elementos que corresponden a un rango de registros de la tabla. 
-`extractTable` | Extrae y devuelve una lista con elementos que corresponden a cada registro de la tabla.
-`showTables` | Devuelve una lista de los nombres de las tablas almacenadas en una base de datos.
-
-### Funciones CRUD de los registros ###
-
-Función |  Definición 
------------- | -------------
-`delete` | Elimina un registro de una tabla y base de datos especificados por la llave primaria.
-`extractRow` | Extrae y devuelve un registro especificado por su llave primaria.
-`insert` | Inserta un registro en la estructura de datos asociada a la tabla y la base de datos.
-`loadCSV` | Carga un archivo CSV de una ruta especificada indicando la base de datos y tabla donde será almacenado.
-`truncate` | Elimina todos los registros de una tabla y base de datos.
-`update` | Inserta un registro en la estructura de datos asociada a la tabla y la base de datos.
-
-### Funciones de utilidad ###
-
-Función |  Definición 
------------- | -------------
-`identify` | Valida que los nombres de bases de datos y tablas sean identificadores de SQL.
-`searchDB` | Verifica si una base de datos especifica ya se encuentra almacenada.
-`searchTB` | Verifica si una tabla de una base de datos ya se encuentra almacenada.
-`searchRepeat` | Verifica si en el arreglo indicado existen datos repetidos.
-`updateTree` |  Actualiza el arbol B de datos cuando se realizan cambios.
-`verifyPk` | Crea y verifica si las llaves primarias estan repetidas.
-
-### Funciones de serializacion ###
-
-Función |  Definición 
------------- | -------------
-`commit` | Genera el archivo binario.
-`initCheck` | Verifica si esta creada la carpeta que almacena archivos binarios.
-`rollback` | Decodifica el archivo binario.
-
-Diagramas de flujo
------------------------
-
-![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/clases.png)
-
-Diagramas de flujo
------------------------
-
-### Función Insertar ###
-
-![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/Insertar.png)
-
-### Función Eliminar ###
-
-![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/Eliminar.png)
 
 ### Requerimientos
-* Tener instalado [pip](https://pypi.org/project/pip/).
+* Tener instalado [java](https://www.oracle.com/technetwork/es/java/javase/downloads/jdk-netbeans-jsp-3413139-esa.html).
 
-* Ejecutar el siguiente comando en la consola: `pip install PIL`
+* Si el archivo _Compilar.bat_ no se puede ejecutar desde NetBeans se puede ejecutar desde consola. 
 
-* Ejecutar el siguiente comando en la consola: `pip install pillow`
+* El archivo de entrada debe de ser con extensión _.olc_
 
-* Para iniciar copiar, en un archivo .py fuera de la carpeta del paquete, el siguiente código:
 ```
-from team17 import Interfaz as i
-i.runInterface()
+Universidad San Carlos de Guatelama 2021
+Programador: Diego Andrés Obín Rosales
+Carné: 201903865
 ```
 
