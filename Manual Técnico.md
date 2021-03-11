@@ -40,7 +40,7 @@ Requerimientos Funcionales del Sistema
 
 Requerimientos del Entorno de Desarrollo
 -----------------------
-• Versión de Java: Java 8.0.0 o superior
+• Versión de Java: Java 8.0.0 o superior [java](https://www.oracle.com/technetwork/es/java/javase/downloads/jdk-netbeans-jsp-3413139-esa.html).
 
 • IDE utilizada: NetBeans IDE 8.2
 
@@ -83,15 +83,9 @@ Función |  Definición
 `Separacion` | Recorre caracter por caracter la expresion ingresada en el archivo. 
 
 ### Funciones para Grafos ###
+------------ | -------------
 `CMD` | Funcion utilizada en distintas clases para la generacion de los grafos.
 
-
-### Requerimientos
-* Tener instalado [java](https://www.oracle.com/technetwork/es/java/javase/downloads/jdk-netbeans-jsp-3413139-esa.html).
-
-* Si el archivo _Compilar.bat_ no se puede ejecutar desde NetBeans se puede ejecutar desde consola. 
-
-* El archivo de entrada debe de ser con extensión _.olc_
 
 ```
 Universidad San Carlos de Guatelama 2021
