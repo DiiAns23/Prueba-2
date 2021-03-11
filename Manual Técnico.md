@@ -12,7 +12,7 @@
 #### • [Diccionario de Funciones](#diccionario-de-funciones) ####
 
 
-Descripción de la solución 
+Descripción de la solución ⚙️
 -----------------------
 
 #### Ejecucion ####
