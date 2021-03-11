@@ -1,5 +1,5 @@
 
-## Indice
+## Indice 🚀
 
 #### • [Descripción de la solución](#descipcion-de-la-solucion) ####
 
@@ -27,7 +27,7 @@ Para una lectura rapida del archivo de entrada se utilizaron las herramientas JL
 
 El programa lee caracter por caracter el archivo de entrada, el cual deberá de tener una extensión de tipo _olc_ , si un caracter no cumple con la estructura definida en el programa se creará un archivo de Reporte de Errores de tipo pdf.
 
-Requerimientos Funcionales del Sistema
+Requerimientos Funcionales del Sistema 📋
 -----------------------
 • Existe un paquete el cual es el encargado de gestionar el almacenamiento de las bases de datos, proporcionando al servidor un conjunto de funciones para ingresar, modificar extraer y eliminar la información.
 
@@ -38,7 +38,7 @@ Requerimientos Funcionales del Sistema
 • El paquete cuenta con una interfaz gráfica que facilita el manejo de la información, para ello se requiere tener instalado [graphviz](https://graphviz.org/download/)
 
 
-Requerimientos del Entorno de Desarrollo
+Requerimientos del Entorno de Desarrollo 🔧
 -----------------------
 • Versión de Java: Java 8.0.0 o superior [java](https://www.oracle.com/technetwork/es/java/javase/downloads/jdk-netbeans-jsp-3413139-esa.html).
 
@@ -50,7 +50,7 @@ Requerimientos del Entorno de Desarrollo
 
 • Liberia JLex y Cup
 
-Diccionario de Clases 
+Diccionario de Clases 📖
 -----------------------
 Clase |  Definición 
 ------------ | -------------
@@ -61,7 +61,7 @@ Clase |  Definición
 `Generar_AFD, Generar_AFND, Generar_Arbol, Tabla_Follow y Tabla_Transicion` | Su funcionalidad es extraer los datos de la clase _Arbol_ para realizar los grafos correspondientes con la herramienta _GraphViz_
 `Interfaz1` | Clase de tipo visual para el usuario que puede mandar a llamar a las claes ya antes mencionadas. Interfaz Grafica.
 
-Diccionario de Funciones
+Diccionario de Funciones 📦
 -----------------------
 
 ### Funciones Principales ###
