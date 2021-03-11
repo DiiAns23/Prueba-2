@@ -42,50 +42,49 @@ GRAMATICAS
 <div id='producciones'/>
 
 ## Producciones
-ini -> instrucciones;
+`ini -> instrucciones`
 
-instrucciones -> LLAVEI  listainstrucciones LLAVED 
+`instrucciones -> LLAVEI  listainstrucciones LLAVED `
 
-listainstrucciones-> listainstrucciones instruccion  |  instruccion
+`listainstrucciones-> listainstrucciones instruccion  |  instruccion`
 
-instruccion -> 
+`instruccion -> 
    conj 
  | n_exp 
  | PORC PORC
  | lect
- | error PTCOMA 
+ | error PTCOMA `
 
-conj ->
-    CONJUNTO DPUNTOS RAN ASIG NACION  conjuntos PTCOMA 
+`conj ->
+    CONJUNTO DPUNTOS RAN ASIG NACION  conjuntos PTCOMA `
 
-conjuntos -> 
+`conjuntos -> 
     ALFAMIN DIP ALFAMIN
  |  ALFAMAY DIP ALFAMAY 
  |  ENTERO  DIP ENTERO   
  |  ASCII   DIP ASCII
- |  xdxdxd
+ |  xdxdxd`
 
-xdxdxd: -> 
+`xdxdxd: -> 
     ALFAMIN  conj2
  |  ALFAMAY  conj2
  |  ENTERO   conj2
- |  ASCII    conj2
+ |  ASCII    conj2`
 
 
-conj2 ->
+`conj2 ->
     COMA xdxdxd
  |  ALFAMIN 
  |  ALFAMAY 
  |  ENTERO 
  |  ASCII
- |  
-;
+ | ` 
 
 
-n_exp ->
-    RAN:b   ASIG NACION  expresion PTCOMA  
+`n_exp ->
+    RAN:b   ASIG NACION  expresion PTCOMA ` 
 
-expresion ->
+`expresion ->
     INTERR comilla         
  |  INTERR alfabeto        
  |  POR expresion2          
@@ -94,14 +93,13 @@ expresion ->
  |  BARRA combinacion      
  |  MAS alfabeto          
  |  MAS expresion2         
- |  INTERR expresion2
+ |  INTERR expresion2`
 
-expresion2::=
+`expresion2::=
     PUNTO combinacion 
- |  BARRA combinacion
-;   
+ |  BARRA combinacion`  
 
-combinacion::=
+`combinacion->
     alfabeto expresion  
  |  alfabeto alfabeto  
  |  alfabeto comilla    
@@ -110,13 +108,12 @@ combinacion::=
  |  expresion expresion 
  |  comilla expresion  
  |  comilla alfabeto   
- |  comilla comilla   
-;
+ |  comilla comilla  ` 
 
-alfabeto->
-    LLAVEI RAN LLAVED    
+`alfabeto->
+    LLAVEI RAN LLAVED `   
 
-comilla->
+`comilla->
     COMILLA RAN COMILLA              
  |  COMILLA ENTERO COMILLA           
  |  COMILLA PUNTO  COMILLA          
@@ -135,12 +132,12 @@ comilla->
  |  COMILLA MAS  COMILLA                 
  |  COMILLA POR  COMILLA                 
  |  COMILLA PORC  COMILLA                 
- |  COMILLA  COMILLA                        
+ |  COMILLA  COMILLA `                       
 
 
-lect->
-    RAN   DPUNTOS COMILLA lect2 COMILLA PTCOMA 
+`lect->
+    RAN   DPUNTOS COMILLA lect2 COMILLA PTCOMA `
 
-lect2->
-    TODO  
+`lect2->
+    TODO ` 
 
