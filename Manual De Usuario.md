@@ -1,4 +1,4 @@
- MANUAL DE USUARIO
+ MANUAL DE USUARIO 🕹️
 ===================
 ## Índice
 - [Introduccion](#introduccion)
