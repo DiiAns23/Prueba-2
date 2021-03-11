@@ -25,9 +25,19 @@ GRAMATICAS
    | `ENTERO`  | \[0-9]  |  `RAN` | (\[a-zA-Z_])\[a-zA-Z0-9_]* 
    | `ALFAMAY` | \[A-Z]   | `ALFAMIN`  | \[a-z]
 
-<div id='no terminales'/>
+<div id='noterminales'/>
 
 ## No terminales
+
+   | **NOMBRE**    |    **NOMBRE**  |    **NOMBRE**   |
+   |---------------|----------------|-----------------|
+   |`ini`          | `expresion`    | `expresion2 `   |
+   | `conjuntos`   |   `conjuntos`  | `listainstrucciones`|
+   |`instrucciones`|  `n_exp`       | `alfabeto`      | 
+   | `conj`        |  `conj2`       | `instruccion`   | 
+   | `conbinacion` | `comilla`      | `xdxdxd`        |
+   | `lect`        | `lect2`        |   |
+
 
 <div id='producciones'/>
 
