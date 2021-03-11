@@ -35,7 +35,7 @@ El programa cuenta con una vista gráfica la cual facilita la interacción entre
 - Ventana Inicial: La _Ventana Inicial_ cuenta con las opciones: *_Archivo_*, *_Generar Gramaticas_* y *_Ver Imágenes_*.
 
 ![](https://github.com/DiiAns23/Prueba-2/blob/Master/img/InterfazGraficaOLC1.PNG)
-
+   
    | **Opción** | **Funcionalidad** |
    | ---------- | ----------------- |
    | Archivo   |Para esta funcion se desplegará un submenú en el cual el usuario debe de seleccionar _Abrir_  y se le mostraá una pestaña para seleccionar el archivo de entrada|
