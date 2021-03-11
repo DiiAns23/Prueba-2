@@ -1,15 +1,15 @@
 
 ## Indice 🚀
 
-#### • [Descripción de la solución](#descipcion-de-la-solucion) ####
+#### • [Descripción de la solución](#descipcion-de-la-solucion-⚙️) ####
 
-#### • [Requerimientos Funcionales del Sistema](#requerimientos-funcionales-del-sistema) ####
+#### • [Requerimientos Funcionales del Sistema](#requerimientos-funcionales-del-sistema-📋) ####
 
-#### • [Requerimientos del Entorno de Desarrollo](#requerimientos-del-entorno-de-desarrollo) ####
+#### • [Requerimientos del Entorno de Desarrollo](#requerimientos-del-entorno-de-desarrollo-🔧) ####
 
-#### • [Diccionario de Clases](#diccionario-de-clases) ####
+#### • [Diccionario de Clases](#diccionario-de-clases-📖) ####
 
-#### • [Diccionario de Funciones](#diccionario-de-funciones) ####
+#### • [Diccionario de Funciones](#diccionario-de-funciones-📦) ####
 
 
 Descripción de la solución ⚙️
