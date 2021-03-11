@@ -8,17 +8,17 @@ GRAMATICAS
 
 <div id='terminales'/>
 ## Terminales
- | NOMBRE | SIMBOLO |  NOMBRE | SIMBOLO |
-  |-------|---------|----------|-------------|
-  |`CONJUUNTO`  | CONJ | `COMILLA` | " 
+ | **NOMBRE** | **SIMBOLO **|  **NOMBRE** | **SIMBOLO** |
+ |-------|---------|----------|-------------|
+ |`CONJUUNTO`  | CONJ | `COMILLA` | " 
  | `DIP`        |   ~  | `COMA`    | ,
-  |`ASIG`       |  -    | `COMILLASIMPLE` | '
+ |`ASIG`       |  -    | `COMILLASIMPLE` | '
  | `NACION`     |  >   | `INVERBARRA`    | \
  | `LLAVEI`    | {     | `ASCII`   | \[!-$&<-=@/]
  | `LLAVED`    | }      | `TODO `  | \[^.\*]
  | `DPUNTOS`   | :   | `PUNTO` | .
  | `INTERR` | ?  `PTCOMA` | ;
- | `BARRA` | \|  | `MAS` | +
+ | `BARRA` | barra  | `MAS` | +
  | `POR`   |  *  | `PORC` | %%
  | `ENTERO`  | \[0-9]  |  `RAN` | (\[a-zA-Z_])\[a-zA-Z0-9_]* 
  | `ALFAMAY` | \[A-Z]   | `ALFAMIN`  | \[a-z]
