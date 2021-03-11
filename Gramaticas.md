@@ -7,6 +7,7 @@ GRAMATICAS
 - [Producciones](#producciones)
 
 <div id='terminales'/>
+
 ## Terminales
    
    | **NOMBRE** | **SIMBOLO **|  **NOMBRE** | **SIMBOLO** |
@@ -25,9 +26,11 @@ GRAMATICAS
    | `ALFAMAY` | \[A-Z]   | `ALFAMIN`  | \[a-z]
 
 <div id='no terminales'/>
+
 ## No terminales
 
 <div id='producciones'/>
+
 ## Producciones
 
 
