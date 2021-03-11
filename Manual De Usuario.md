@@ -1,6 +1,6 @@
  MANUAL DE USUARIO 🕹️
 ===================
-## Índice
+## Índice 📚
 - [Introduccion](#introduccion)
 - [Descripción General del Sistema](#descrip)
 - [Aplicacion](#apli)
@@ -9,12 +9,12 @@
 
 <div id='introduccion'/>
 
-## Introducción
+## Introducción 📑
 El programa cuenta con la implementación de una interfaz gráfica para el usuario, en la cual la interacción es amigable y compresible. Fue diseñada de forma simple para que consuma un menor gasto de recursos de su ordenador el cual se dara una mejor fluidez durante la ejecución. Este programa es de tipo _Analizador Léxico-Sintáctico_ que permite la validación de cadenas por medio de un archivo de entrada de tipo .olc.
 
 <div id='descrip'/>
 
-## Descripción
+## Descripción 📄
 
   - **Estructura de Almacenamiento**: 
 Para cada lectura de un archivo de entrada se utilizaron listas ArrayList así como LinkedList para la implementacion correcta de las gramáticas ingresadas.
@@ -28,7 +28,7 @@ El programa permite la lectura de cualquier caracter en cualquier posicion del a
 
 <div id='apli'/>
 
-## Aplicación
+## Aplicación 🔲
 ### Interfaz Gráfica (GUI)
 El programa cuenta con una vista gráfica la cual facilita la interacción entre el sistema y el usuario final para un mejor desempeño del mismo. Por medio de dicha interfaz, al usuario se le permite seleccionar de forma _gráfica_ una archivo de entrada que contendrá las gramáticas a analizar. El usuario puede navegar por la aplicación seleccionando a través de botones la acción que desea realizar, si ocurre un error en el ingreso de datos el programa creara un archivo en donde se mostrará al usuario el tipo de error que se está cometiendo y el lugar exacto del mismo. 
 
@@ -47,7 +47,7 @@ El programa cuenta con una vista gráfica la cual facilita la interacción entre
 
 <div id='glosario'/>
 
-## Glosario
+## Glosario 📖
 
 | Palabra | Descripción | 
 | ------------------------------- | ----------------------------------------- |
@@ -59,7 +59,7 @@ El programa cuenta con una vista gráfica la cual facilita la interacción entre
 
 <div id='questions'/> 
 
-## Preguntas Frecuentes (FAQ)
+## Preguntas Frecuentes (FAQ) ❓
 **1. ¿Se puede cargar un archivo que sea otro tipo de extensión?** 
 
 > _R//_ *No, el programa admite solo extensiones olc*
