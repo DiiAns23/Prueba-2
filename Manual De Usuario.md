@@ -41,6 +41,8 @@ El programa cuenta con una vista gráfica la cual facilita la interacción entre
    | Archivo   |Para esta funcion se desplegará un submenú en el cual el usuario debe de seleccionar _Abrir_  y se le mostraá una pestaña para seleccionar el archivo de entrada|
    | Generar Gramaticas  | Generará todos los archivos correspondientes al archivo de entrada |
    | Ver Imágenes  | Mostrará las opciones disponibles luego de generar las gramáticas |
+   |Siguiente| Mostrará la imagen siguiente correspondiente a la opción seleccionada en _Ver Imágenes_ |
+   |Anterior| Mostrará la imagen anterior correspondiente a la opción seleccionada en _Ver Imágenes_ |
      
 
 <div id='glosario'/>
