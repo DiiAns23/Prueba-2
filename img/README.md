@@ -10,6 +10,6 @@
 ## DESARROLLADO CON:
 
 <p align="center">
-  <img width="480" src="https://media.giphy.com/media/KAq5w47R9rmTuvWOWa/giphy.gif?cid=790b7611f0b0e2a117f9a612295f48b26dabc381aface821&rid=giphy.gif&ct=g">
+  <img width="100" src="https://media.giphy.com/media/KAq5w47R9rmTuvWOWa/giphy.gif?cid=790b7611f0b0e2a117f9a612295f48b26dabc381aface821&rid=giphy.gif&ct=g">
 </p>
 
