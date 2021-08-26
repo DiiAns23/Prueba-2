@@ -9,4 +9,4 @@
 
 ## DESARROLLADO CON:
 
-<iframe src="https://giphy.com/embed/KAq5w47R9rmTuvWOWa" width="480" height="476" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/devrock-python-django-edr-KAq5w47R9rmTuvWOWa">via GIPHY</a></p>
+<div style="width:100%;height:0;padding-bottom:99%;position:relative;"><iframe src="https://giphy.com/embed/KAq5w47R9rmTuvWOWa" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/devrock-python-django-edr-KAq5w47R9rmTuvWOWa">via GIPHY</a></p>
