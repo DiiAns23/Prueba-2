@@ -12,7 +12,7 @@
   <img src="https://64.media.tumblr.com/2d0af9c90d1b1107313cc20bda01548a/tumblr_outwxnanpp1u79o2lo1_1280.gif">
 </p>
 
-<h3> 🛠🛠 &nbsp;Something about my skills</h3>
+<h3> 🛠🛠 &nbsp;Algunas de mis habilidades</h3>
 
 - 💻 &nbsp;
   ![Python](https://img.shields.io/badge/-Python-0d0d0d?style=flat&logo=python)
@@ -41,7 +41,7 @@
   ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-0d0d0d?style=flat&logo=visual-studio-code&logoColor=007ACC)
   ![Photoshop](https://img.shields.io/badge/-Photoshop-0d0d0d?style=flat&logo=adobe-photoshop)
 
-<h3> 🔍🔍 &nbsp;Some Information about my github profile.</h3>
+<h3> 🔍🔍 &nbsp;Información sobre mi perfil de Github.</h3>
 
 <br>
 <a href="https://github.com/anuraghazra/github-readme-stats">
